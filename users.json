@@ -1,0 +1,119 @@
+[
+    {
+        "email": "kholoud4kam@gmail.com",
+        "password": "123456789",
+        "username": "kholouudd__",
+        "date": "2024-07-13 10:22:37",
+        "favorites": [
+            {
+                "_id": 10,
+                "title": "OSGi in Depth",
+                "isbn": "193518217X",
+                "pageCount": 325,
+                "publishedDate": {
+                    "$date": "2011-12-12T00:00:00.000-0800"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
+                "shortDescription": "Enterprise OSGi shows a Java developer how to develop to the OSGi Service Platform Enterprise specification, an emerging Java-based technology for developing modular enterprise applications. Enterprise OSGi addresses several shortcomings of existing enterprise platforms, such as allowing the creation of better maintainable and extensible applications, and provide a simpler, easier-to-use, light-weight solution to enterprise software development.",
+                "longDescription": "A good application framework greatly simplifies a developer's task by providing reusable code modules that solve common, tedious, or complex tasks. Writing a great framework requires an extraordinary set of skills-ranging from deep knowledge of a programming language and target platform to a crystal-clear view of the problem space where the applications to be developed using the framework will be used.    OSGi Application Frameworks shows a Java developer how to build frameworks based on the OSGi service platform. OSGi, an emerging Java-based technology for developing modular applications, is a great tool for framework building. A framework itself, OSGi allows the developer to create a more intuitive, modular framework by isolating many of the key challenges the framework developer faces.    This book begins by describing the process, principles, and tools you must master to build a custom application framework. It introduces the fundamental concepts of OSGi, and then shows you how to put OSGi to work building various types of frameworks that solve specific development problems.    OSGi is particularly useful for building frameworks that can be easily extended by developers to create domain-specific applications. This book teaches the developer to break down a problem domain into its abstractions and then use OSGi to create a modular framework solution. Along the way, the developer learns software engineering practices intrinsic to framework building that result in systems with better software qualities, such as flexibility, extensibility, and maintainability.    Author Alexandre Alves guides you through major concepts, such as the definition of programming models and modularization techniques, and complements them with samples that have real applicability using industry-proved technologies, such as Spring-DM and Equinox.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Alexandre de Castro Alves"
+                ],
+                "categories": [
+                    "Java"
+                ]
+            },
+            {
+                "_id": 9,
+                "title": "Griffon in Action",
+                "isbn": "1935182234",
+                "pageCount": 375,
+                "publishedDate": {
+                    "$date": "2012-06-04T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg",
+                "shortDescription": "Griffon in Action is a comprehensive tutorial written for Java developers who want a more productive approach to UI development. In this book, you'll immediately dive into Griffon. After a Griffon orientation and a quick Groovy tutorial, you'll start building examples that explore Griffon's high productivity approach to Swing development. One of the troublesome parts of Swing development is the amount of Java code that is required to get a simple application off the ground.",
+                "longDescription": "Although several options exist for interface development in Java, even popular UI toolkits like Swing have been notoriously complex and difficult to use. Griffon, an agile framework that uses Groovy to simplify Swing, makes UI development dramatically faster and easier. In many respects, Griffon is for desktop development what Grails is for web development. While it's based on Swing, its declarative style and approachable level of abstraction is instantly familiar to developers familiar with other technologies such as Flex or JavaFX.    Griffon in Action is a comprehensive tutorial written for Java developers who want a more productive approach to UI development. In this book, you'll immediately dive into Griffon. After a Griffon orientation and a quick Groovy tutorial, you'll start building examples that explore Griffon's high productivity approach to Swing development. One of the troublesome parts of Swing development is the amount of Java code that is required to get a simple application off the ground.    You'll learn how SwingBuilder (and its cousin builders) present a very palatable alternative in the form of a DSL geared towards building graphical user interfaces. Pair it up with the convention over configuration paradigm, a well tested and tried application source structure (based on Grails) and you have a recipe for quick and effective Swing application development. Griffon in Action covers declarative view development, like the one provided by JavaFX Script, as well as the structure, architecture and life cycle of Java application development",
+                "status": "PUBLISH",
+                "authors": [
+                    "Andres Almiray",
+                    "Danno Ferrin",
+                    "",
+                    "James Shingler"
+                ],
+                "categories": [
+                    "Java"
+                ]
+            },
+            {
+                "_id": 13,
+                "title": "Hello! Flex 4",
+                "isbn": "1933988762",
+                "pageCount": 258,
+                "publishedDate": {
+                    "$date": "2009-11-01T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong3.jpg",
+                "shortDescription": "Hello! Flex 4 progresses through 26 self-contained examples selected so you can progressively master Flex. They vary from small one-page apps, to a 3D rotating haiku, to a Connect Four-like game. And in the last chapter you'll learn to build a full Flex application called SocialStalkr   a mashup that lets you follow your friends by showing their tweets on a Yahoo map.",
+                "longDescription": "With Flex 4 you can easily add color and life to your web applications by introducing dynamic user features, slick transitions, and eye-catching animations. Flex also provides powerful data handling capabilities so you can build industrial-strength applications. And it's open source, so you can get started without forking over a lot of your hard-earned cash.    We think it should be just as much fun to learn Flex as it is to use Flex. Hello! Flex 4 shows you everything you need to know to get started with Flex 4 without bogging you down in obscure detail or academic edge cases. In this entertaining, hands-on book, you'll quickly move from Hello World into the techniques you'll need to use Flex effectively.    You'll start by progressing through 26 self-contained workshop items, which include everything from small one-page examples, to a 3D rotating haiku, to building a Connect Four game. Finally, in the last chapter you'll build a full Flex application called 'SocialStalkr': an interesting mashup of Twitter and Yahoo Maps that lets you 'stalk' your friends by showing specially formatted Twitter tweets on a Yahoo map.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Peter Armstrong"
+                ],
+                "categories": [
+                    "Internet"
+                ]
+            },
+            {
+                "_id": 176,
+                "title": "Object Technology Centers of Excellence",
+                "isbn": "132612313",
+                "pageCount": 200,
+                "publishedDate": {
+                    "$date": "1996-06-01T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/korson.jpg",
+                "shortDescription": "Object Technology Centers of Excellence provides guidance to those charged with managing the shift to object technology. It is the only book on the market aimed not at the project level but at the corporate level, with a focus on the infrastructures necessary for a successful transition.",
+                "longDescription": "Object Technology Centers (OTC) are technology transfer catalysts for the rapid development and deployment of object-oriented infrastructure. Object Technology Centers of Excellence provides guidance to those charged with managing the shift to object technology. It is the only book on the market aimed not at the project level but at the corporate level, with a focus on the infrastructures necessary for a successful transition.    This book presents case histories of early adopters of OT, which can help you understand the steps your company must take-and paths it should avoid. Object Technology Centers of Excellence is recommended reading in any organization planning or transitioning to OT, not just involved with formal OTCs. The book includes practical advice for managers, members of technical staffs, and consultants.    The case histories involve some heavy hitters:    IBM  Wiltel  The Travelers  Bell Northern Research  Also, summaries are presented for Andersen Consulting, Northern Telecom, Prudential Insurance Company, Ascom Nexion, and several others.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Timothy D. Korson",
+                    "Vijay K. Vaishnavi"
+                ],
+                "categories": [
+                    "Object-Technology Programming",
+                    ""
+                ]
+            }
+        ]
+    },
+    {
+        "email": "kh@gmail.com",
+        "password": "123456789",
+        "username": "kholouudd__",
+        "date": "2024-07-13 10:25:51",
+        "favorites": []
+    },
+    {
+        "email": "moustafa@gmail.com",
+        "password": "123456789",
+        "username": "moustafa",
+        "date": "2024-07-14 15:41:34",
+        "favorites": []
+    },
+    {
+        "email": "nora@gmail.com",
+        "password": "123456789",
+        "username": "nora",
+        "date": "2024-07-14 16:39:57",
+        "favorites": []
+    },
+    {
+        "email": "admin@admin.com",
+        "password": "123456789",
+        "username": "admin",
+        "date": "2024-07-14 16:39:57",
+        "favorites": []
+    }
+]
