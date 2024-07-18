@@ -1,0 +1,12 @@
+.custom_color
+{
+    background-color: #f83fc0;
+}
+.custom_border{
+    border-color:#f83fc0 ;
+    
+}
+.custom_border:hover{
+    background-color: #f83fc0;
+    border-color:#f83fc0 ;
+}
