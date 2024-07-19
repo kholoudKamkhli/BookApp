@@ -1,12 +1,14 @@
-title = document.getElementById("title");
-isbn = document.getElementById("isbn");
-pageCount = document.getElementById("pageCount");
-thumbnailUrl = document.getElementById("thumbnailUrl");
-shortDescription = document.getElementById("shortDescription");
-longDescription = document.getElementById("longDescription");
-statuss = document.getElementById("status");
-authors = document.getElementById("authors");
-categories = document.getElementById("categories");
+// select the input elments from the html to pre-fill them with the book's old data
+let title = document.getElementById("title");
+let isbn = document.getElementById("isbn");
+let pageCount = document.getElementById("pageCount");
+let thumbnailUrl = document.getElementById("thumbnailUrl");
+let shortDescription = document.getElementById("shortDescription");
+let longDescription = document.getElementById("longDescription");
+let statuss = document.getElementById("status");
+let authors = document.getElementById("authors");
+let categories = document.getElementById("categories");
+//when the html loads, put values inside the text fields.
 document.addEventListener('DOMContentLoaded', (event) => {
     title.value = book.title;
     isbn.value = book.isbn;
@@ -19,14 +21,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
     categories.value = book.categories;
 
 });
-function cancelEdit() {
-
-    fetch(`/cancel_edit`, {
-        method: "POST",
-    })
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Network response was not ok');
-        }
-    })
-}

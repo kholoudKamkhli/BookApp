@@ -52,7 +52,7 @@
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
             "shortDescription": "\"Flexible Rails created a standard to which I hold other technical books. You definitely get your money's worth.\"",
             "longDescription": "Rails is a fantastic tool for web application development, but its Ajax-driven interfaces stop short of the richness you gain with a tool like Adobe Flex. Simply put, Flex is the most productive way to build the UI of rich Internet applications, and Rails is the most productive way to rapidly build a database-backed CRUD application. Together, they're an amazing combination.    Flexible Rails is a book about how to use Ruby on Rails and Adobe Flex to build next-generation rich Internet applications (RIAs). The book takes you to the leading edge of RIA development, presenting examples in Flex 3 and Rails 2.    This book is not an exhaustive Ruby on Rails tutorial, nor a Flex reference manual. (Adobe ships over 3000 pages of PDF reference documentation with Flex.) Instead, it's an extensive tutorial, developed iteratively, how to build an RIA using Flex and Rails together. You learn both the specific techniques you need to use Flex and Rails together as well as the development practices that make the combination especially powerful.    The example application built in the book is MIT-licensed, so readers can use it as the basis for their own applications. In fact, one reader has already built an agile project management tool based on the book example!    With this book, you learn Flex by osmosis. You can read the book and follow along even if you have never used Flex before. Consider it \"Flex Immersion.\" You absorb the key concepts of Flex as you go through the process of building the application.    You will also learn how Flex and Rails integrate with HTTPService and XML, and see how RESTful Rails controller design gracefully supports using the same controller actions for Flex and HTML clients. The author will show you how Cairngorm can be used to architect larger Flex applications, including tips to use Cairngorm in a less verbose way with HTTPService to talk to Rails.    Flexible Rails is for both Rails developers who are interested in Flex, and Flex developers who are interested in Rails. For a Rails developer, Flex allows for more dynamic and engaging user interfaces than are possible with Ajax. For a Flex developer, Rails provides a way to rapidly build the ORM and services layer of the application.",
-            "status": "PUBLISH",
+            "status": "PUBLISHED",
             "authors": [
                 "Peter Armstrong"
             ],
@@ -271,8 +271,7 @@
                 "Douglas W. Bennett"
             ],
             "categories": [
-                "Object-Oriented Programming",
-                "S"
+                "Object-Oriented Programming"
             ]
         },
         {
@@ -1042,7 +1041,7 @@
                 "Jason Bock"
             ],
             "categories": [
-                "Microsoft/.NET"
+                "Microsoft .NET"
             ]
         },
         {
@@ -2876,25 +2875,6 @@
             ]
         },
         {
-            "_id": 247,
-            "title": "Windows PowerShell in Action, Second Edition",
-            "isbn": "1935182137",
-            "pageCount": 700,
-            "publishedDate": {
-                "$date": "2011-05-15T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/payette2.jpg",
-            "shortDescription": "Windows PowerShell in Action, Second Edition is a completely revised edition of the best selling book on PowerShell, written by Bruce Payette, one of the founding members of the Windows PowerShell team, co-designer of the PowerShell language, and the principal author of the PowerShell language implementation.    This new edition preserves the crystal-clear introduction to PowerShell, showing sysadmins and developers how to build scripts and utilities to automate system tasks or create powerful system management tools to handle day-to-day tasks. It's rich with interesting examples that will spark your imagination. The book covers batch scripting and string processing, COM, WMI, remote management and jobs and even .NET programming including WinForms and WPF/XAML.",
-            "longDescription": "Windows PowerShell transformed the way administrators and developers interact with Windows. PowerShell, an elegant dynamic language from Microsoft, lets you script administrative tasks and control Windows from the command line. Because it's a full-featured, first-class Windows programming language, programmers and power-users can now do things in a shell that previously required VB, VBScript, or C#.    Windows PowerShell in Action, Second Edition is a completely revised edition of the best selling book on PowerShell, written by Bruce Payette, one of the founding members of the Windows PowerShell team, co-designer of the PowerShell language, and the principal author of the PowerShell language implementation.    This new edition preserves the crystal-clear introduction to PowerShell, showing sysadmins and developers how to build scripts and utilities to automate system tasks or create powerful system management tools to handle day-to-day tasks. It's rich with interesting examples that will spark your imagination. The book covers batch scripting and string processing, COM, WMI, remote management and jobs and even .NET programming including WinForms and WPF/XAML.    Windows PowerShell in Action, Second Edition adds full coverage of V2 features like remote, changes to the threading model, and the new -split and -join operators. The book now includes full chapters on Remoting, Modules, Events and Transactions, and the PowerShell Integrated Scripting Environment. As well, it provides deeper coverage of PowerShell \"commandlets\" (cmdlets) and more of the popular usage scenarios throughout the book.",
-            "status": "PUBLISH",
-            "authors": [
-                "Bruce Payette"
-            ],
-            "categories": [
-                "Microsoft"
-            ]
-        },
-        {
             "_id": 248,
             "title": "Silverlight 4 in Action, Revised Edition",
             "isbn": "1935182374",
@@ -3252,26 +3232,6 @@
             ]
         },
         {
-            "_id": 267,
-            "title": "PHP in Action",
-            "isbn": "1932394753",
-            "pageCount": 552,
-            "publishedDate": {
-                "$date": "2007-07-01T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/reiersol.jpg",
-            "shortDescription": "\"If there was ever a textbook for software development in PHP, this would be it.\"    Cal Evans, Podcast Review, Zend Developer Network",
-            "longDescription": "To keep programming productive and enjoyable, state-of-the-art practices and principles are essential. Object-oriented programming and design help manage complexity by keeping components cleanly separated. Unit testing helps prevent endless, exhausting debugging sessions. Refactoring keeps code supple and readable. PHP offers all this, and more.    PHP in Action shows you how to apply PHP techniques and principles to all the most common challenges of web programming, including:    Web presentation and templates  User interaction including the Model-View-Contoller architecture  Input validation and form handling  Database connection and querying and abstraction  Object persistence  This book takes on the most important challenges of web programming in PHP 5 using state-of-the art programming and software design techniques including unit testing, refactoring and design patterns. It provides the essential skills you need for developing or maintaining complex to moderately complex PHP web applications.",
-            "status": "PUBLISH",
-            "authors": [
-                "Dagfinn Reiers\u00c3\u00b8l with Marcus Baker",
-                "Chris Shiflett"
-            ],
-            "categories": [
-                "PHP"
-            ]
-        },
-        {
             "_id": 269,
             "title": "Secrets of the JavaScript Ninja",
             "isbn": "193398869X",
@@ -3310,23 +3270,6 @@
             ]
         },
         {
-            "_id": 271,
-            "title": "Swing",
-            "isbn": "1884777848",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1999-12-01T00:00:00.000-0800"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Matthew Robinson",
-                "Pavel Vorobiev"
-            ],
-            "categories": [
-                "Java"
-            ]
-        },
-        {
             "_id": 272,
             "title": "Swing Second Edition",
             "isbn": "193011088X",
@@ -3335,6 +3278,7 @@
                 "$date": "2003-02-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/robinson2.jpg",
+            "shortDescription": "This book builds on the successful approach of the first edition of Swing, once again taking the power and flexibility of Java's Swing library to its limits. Using a fast-paced style, it starts by introducing each of the Swing components and continues with production-quality code examples in which Swing features are customized, combined, and vigorously exercised to demonstrate real-world usage.    With over 400 pages of revised text, additional examples, and new material to bring the book up to date with J2SE 1.4, Swing Second Edition includes complete coverage of the new JSpinner and JFormattedTextField components, the new Focus and Keyboard architectures, and many other new and enhanced Swing features. Three new chapters have also been added to cover the construction of HTML and XML editor applications, and how to work with the new Drag & Drop architecture.",
             "longDescription": "This book builds on the successful approach of the first edition of Swing, once again taking the power and flexibility of Java's Swing library to its limits. Using a fast-paced style, it starts by introducing each of the Swing components and continues with production-quality code examples in which Swing features are customized, combined, and vigorously exercised to demonstrate real-world usage.    With over 400 pages of revised text, additional examples, and new material to bring the book up to date with J2SE 1.4, Swing Second Edition includes complete coverage of the new JSpinner and JFormattedTextField components, the new Focus and Keyboard architectures, and many other new and enhanced Swing features. Three new chapters have also been added to cover the construction of HTML and XML editor applications, and how to work with the new Drag & Drop architecture.",
             "status": "PUBLISH",
             "authors": [],
@@ -3352,6 +3296,7 @@
                 "$date": "1998-05-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rodrigues.jpg",
+            "shortDescription": "Build your own bean  Or use one that's ready-made  The Awesome Power of Java Beans provides the details on both. Either way, the power of Java Beans is awesome: once created, your beans run anywhere-- ceven masquerading as an ActiveX control.    The Awesome Power of Java Beans shows you how to use not only BeanBox, but also such tools as VisualAge WebRunner, JBuilder and PowerJ. And there's a wide-ranging selection of completed and tested beans for you to use in your applications    If you're a Java programmer, teacher or student, or if you design software systems using Java Beans, this book will be a valuable resource.",
             "longDescription": "Build your own bean  Or use one that's ready-made  The Awesome Power of Java Beans provides the details on both. Either way, the power of Java Beans is awesome: once created, your beans run anywhere-- ceven masquerading as an ActiveX control.    The Awesome Power of Java Beans shows you how to use not only BeanBox, but also such tools as VisualAge WebRunner, JBuilder and PowerJ. And there's a wide-ranging selection of completed and tested beans for you to use in your applications    If you're a Java programmer, teacher or student, or if you design software systems using Java Beans, this book will be a valuable resource.",
             "status": "PUBLISH",
             "authors": [
@@ -3378,24 +3323,6 @@
             ],
             "categories": [
                 "Networking"
-            ]
-        },
-        {
-            "_id": 275,
-            "title": "The Cloud at Your Service",
-            "isbn": "1935182528",
-            "pageCount": 200,
-            "publishedDate": {
-                "$date": "2010-11-22T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rosenberg.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jothy Rosenberg",
-                "Arthur Mateos"
-            ],
-            "categories": [
-                "Internet"
             ]
         },
         {
@@ -3466,6 +3393,7 @@
                 "$date": "2005-06-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sanghera.jpg",
+            "shortDescription": "There is probably no Java certification more valuable to you than Sun Certified Business Component Developer CX-310-090. To pass you need a readable, no-nonsense book focused like a laser beam on the exam goals. SCBCD Exam Study Kit is that book.    The study kit makes sure you first understand all the concepts you need to know, large and small, and then covers every single exam topic. It provides more than 130 review questions with answers distributed over all chapters and an Exam's Eye View section at the end of each chapter on the important points to remember.    Although SCBCD Exam Study Kit has only one purpose - to help you get certified - you will find yourself returning to it as a reference after passing the exam. A demo on how to install the necessary software, write a simple bean, deploy the bean, and execute it, as well as a free SCBCD exam simulator can be downloaded from the publisher's website.",
             "longDescription": "There is probably no Java certification more valuable to you than Sun Certified Business Component Developer CX-310-090. To pass you need a readable, no-nonsense book focused like a laser beam on the exam goals. SCBCD Exam Study Kit is that book.    The study kit makes sure you first understand all the concepts you need to know, large and small, and then covers every single exam topic. It provides more than 130 review questions with answers distributed over all chapters and an Exam's Eye View section at the end of each chapter on the important points to remember.    Although SCBCD Exam Study Kit has only one purpose - to help you get certified - you will find yourself returning to it as a reference after passing the exam. A demo on how to install the necessary software, write a simple bean, deploy the bean, and execute it, as well as a free SCBCD exam simulator can be downloaded from the publisher's website.",
             "status": "PUBLISH",
             "authors": [
@@ -3518,23 +3446,6 @@
             ]
         },
         {
-            "_id": 282,
-            "title": "OpenCL in Action",
-            "isbn": "1617290173",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2011-11-14T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/scarpino2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Matthew Scarpino"
-            ],
-            "categories": [
-                "Programming"
-            ]
-        },
-        {
             "_id": 283,
             "title": "Multiprotocol over ATM",
             "isbn": "138892709",
@@ -3583,6 +3494,7 @@
                 "$date": "2002-03-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/selman.jpg",
+            "shortDescription": "Java 3D Programming steps programmers through the important design and implementation phases of developing a successful Java 3D application. The book provides invaluable guidance on whether to use Java 3D, user interface design, geometry creation, scene manipulation and final optimizations. The book does not attempt to exhaustively cover the API or replicate the official documentation but rather serves as a roadmap to alert programmers of design issues and potential pitfalls.    The author distills 12 months of using the Java 3D API for commercial projects, as well as innumerable discussions on the Java 3D email list into a book that all Java 3D developers will appreciate. Experienced Java 3D developers will applaud an authoritative resource containing the state-of-the-art in techniques and workarounds, while novice Java 3D programmers will gain a fast-track into Java 3D development, avoiding the confusion, frustration and time wasted learning Java 3D techniques and terminology.    Java 3D Programming comes complete with a comprehensive set of programming examples to illustrate the techniques, features, workarounds and bug fixes contained in the main text.    Readers of this book would include students and postgraduate researchers developing visualization applications for academia. Moderately experienced in Java, some experience of 3D graphics, little or no experience of Java 3D is needed. R+D s/w engineers at commercial institutions. Experienced Java developers, experienced with OpenGL or VRML, little or no experience with Java 3D.",
             "longDescription": "Java 3D Programming steps programmers through the important design and implementation phases of developing a successful Java 3D application. The book provides invaluable guidance on whether to use Java 3D, user interface design, geometry creation, scene manipulation and final optimizations. The book does not attempt to exhaustively cover the API or replicate the official documentation but rather serves as a roadmap to alert programmers of design issues and potential pitfalls.    The author distills 12 months of using the Java 3D API for commercial projects, as well as innumerable discussions on the Java 3D email list into a book that all Java 3D developers will appreciate. Experienced Java 3D developers will applaud an authoritative resource containing the state-of-the-art in techniques and workarounds, while novice Java 3D programmers will gain a fast-track into Java 3D development, avoiding the confusion, frustration and time wasted learning Java 3D techniques and terminology.    Java 3D Programming comes complete with a comprehensive set of programming examples to illustrate the techniques, features, workarounds and bug fixes contained in the main text.    Readers of this book would include students and postgraduate researchers developing visualization applications for academia. Moderately experienced in Java, some experience of 3D graphics, little or no experience of Java 3D is needed. R+D s/w engineers at commercial institutions. Experienced Java developers, experienced with OpenGL or VRML, little or no experience with Java 3D.",
             "status": "PUBLISH",
             "authors": [
@@ -3595,24 +3507,6 @@
             ]
         },
         {
-            "_id": 286,
-            "title": "Liferay in Action",
-            "isbn": "193518282X",
-            "pageCount": 375,
-            "publishedDate": {
-                "$date": "2011-09-20T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sezov.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Richard Sezov",
-                "Jr"
-            ],
-            "categories": [
-                "Internet"
-            ]
-        },
-        {
             "_id": 287,
             "title": "JSP Tag Libraries",
             "isbn": "193011009X",
@@ -3621,6 +3515,7 @@
                 "$date": "2001-05-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shachor.jpg",
+            "shortDescription": "JSP Tag Libraries is a bible for serious JSP developers. The reader will become acquainted with the world of custom JSP tags--new JSP technology that is beginning to have an enormous impact on the way people are developing JSP.    JSP tags are Java components that can be used from within a JSP file. By representing these components as tags, code authors can open up their JSP development to the everyday content developer as well as improve their code reuse and separation between presentation and business logic.    The book is fully loaded with many real-world tags including tags to perform iterations, access databases, EJBs, email systems and JavaBeans. To make the tag usage even more real, the book also offers two full-scale case studies in which the reader will see how tags can be used in the context of:    e-Commerce applications  WAP applications that work with current cellular phones  This book covers all aspects of JSP Tag development for Scriptlet-free generation of online content. It focuses on reusable component-centric design via JavaBeans and custom tags to separate presentation from implementation.",
             "longDescription": "JSP Tag Libraries is a bible for serious JSP developers. The reader will become acquainted with the world of custom JSP tags--new JSP technology that is beginning to have an enormous impact on the way people are developing JSP.    JSP tags are Java components that can be used from within a JSP file. By representing these components as tags, code authors can open up their JSP development to the everyday content developer as well as improve their code reuse and separation between presentation and business logic.    The book is fully loaded with many real-world tags including tags to perform iterations, access databases, EJBs, email systems and JavaBeans. To make the tag usage even more real, the book also offers two full-scale case studies in which the reader will see how tags can be used in the context of:    e-Commerce applications  WAP applications that work with current cellular phones  This book covers all aspects of JSP Tag development for Scriptlet-free generation of online content. It focuses on reusable component-centric design via JavaBeans and custom tags to separate presentation from implementation.",
             "status": "PUBLISH",
             "authors": [
@@ -3697,23 +3592,6 @@
             ]
         },
         {
-            "_id": 292,
-            "title": "PowerShell and WMI",
-            "isbn": "1617290114",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-04-30T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Richard Siddaway"
-            ],
-            "categories": [
-                "Microsoft .NET"
-            ]
-        },
-        {
             "_id": 293,
             "title": "Making Sense of Java",
             "isbn": "132632942",
@@ -3766,6 +3644,7 @@
                 "$date": "2008-04-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeet.jpg",
+            "shortDescription": "In programming, there's no substitute for knowing your stuff. In versions 2 and 3, C# introduces new concepts such as lambda expressions and implicit typing that make the language more flexible and give you more power. Using Language INtegrated Query (LINQ)   also new in C# 3   you can interact with data of any type directly from C#. Simply put, mastering these features will make you a more valuable C# developer.    C# in Depth is designed to bring you to a new level of programming skill. It dives deeply into key C# topics   in particular the new ones. You'll learn to reuse algorithms in a type-safe way with C# 2 generics and expand the functionality of existing classes and interfaces using C# 3 extension methods. Tricky issues become clear in author Jon Skeet's crisp, easy-to-follow explanations and snappy, pragmatic examples. With this book under your belt, you will easily learn   and then master   new frameworks and platforms.",
             "longDescription": "In programming, there's no substitute for knowing your stuff. In versions 2 and 3, C# introduces new concepts such as lambda expressions and implicit typing that make the language more flexible and give you more power. Using Language INtegrated Query (LINQ)   also new in C# 3   you can interact with data of any type directly from C#. Simply put, mastering these features will make you a more valuable C# developer.    C# in Depth is designed to bring you to a new level of programming skill. It dives deeply into key C# topics   in particular the new ones. You'll learn to reuse algorithms in a type-safe way with C# 2 generics and expand the functionality of existing classes and interfaces using C# 3 extension methods. Tricky issues become clear in author Jon Skeet's crisp, easy-to-follow explanations and snappy, pragmatic examples. With this book under your belt, you will easily learn   and then master   new frameworks and platforms.",
             "status": "PUBLISH",
             "authors": [
@@ -3920,6 +3799,7 @@
                 "$date": "2002-09-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sullins.jpg",
+            "shortDescription": "With Java Management Extensions (JMX), you can configure, manage and monitor your Java applications at run-time, as well as break your applications into components that can be swapped out. JMX provides a window into an application's state and its behavior, and a protocol-independent way of altering both state and behavior. It lets you expose portions of your application in just a few lines of code.    Written for both new and experienced developers, this book explains the JMX specification and discusses its use through clean, well-discussed examples. It covers the JMX architecture and how to create all types of MBeans. It includes important advanced topics such as extending the JMX classes, combining with other Java technologies, the MBean relation service, dynamic MBean loading, and creating your own protocol adapters.",
             "longDescription": "With Java Management Extensions (JMX), you can configure, manage and monitor your Java applications at run-time, as well as break your applications into components that can be swapped out. JMX provides a window into an application's state and its behavior, and a protocol-independent way of altering both state and behavior. It lets you expose portions of your application in just a few lines of code.    Written for both new and experienced developers, this book explains the JMX specification and discusses its use through clean, well-discussed examples. It covers the JMX architecture and how to create all types of MBeans. It includes important advanced topics such as extending the JMX classes, combining with other Java technologies, the MBean relation service, dynamic MBean loading, and creating your own protocol adapters.",
             "status": "PUBLISH",
             "authors": [
@@ -3945,27 +3825,6 @@
             "authors": [
                 "Benjamin G. Sullins",
                 "Mark B. Whipple"
-            ],
-            "categories": [
-                "Java"
-            ]
-        },
-        {
-            "_id": 306,
-            "title": "GWT in Action, Second Edition",
-            "isbn": "1935182846",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-01-21T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tacy.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Adam Tacy",
-                "Robert Hanson",
-                "Jason Essington",
-                "",
-                "Anna T\u00c3\u00b6kke"
             ],
             "categories": [
                 "Java"
@@ -4003,6 +3862,7 @@
                 "$date": "2002-03-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/tate.jpg",
+            "shortDescription": "It is a well-known fact that most software projects fail. Drawing important lessons from common failures is the goal of Bitter Java.    Reusing design patterns is not enough for success: patterns are like partial maps of dangerous terrain. They help, but don't prevent you from getting lost. Bitter Java teaches you how to recognize when you are lost, and how to get back on the right path. It illustrates common pitfalls of Java programming through code examples; it then refactors the code and explains why the new solutions are safe.    This book is a systematic account of common server-side Java programming mistakes, their causes and solutions. It covers antipatterns for base Java and J2EE concepts such as Servlets, JSPs, EJBs, enterprise connection models, and scalability. If you are an intermediate Java programmer, analyst or architect eager to avoid the bitter experiences of others, this book is for you.",
             "longDescription": "It is a well-known fact that most software projects fail. Drawing important lessons from common failures is the goal of Bitter Java.    Reusing design patterns is not enough for success: patterns are like partial maps of dangerous terrain. They help, but don't prevent you from getting lost. Bitter Java teaches you how to recognize when you are lost, and how to get back on the right path. It illustrates common pitfalls of Java programming through code examples; it then refactors the code and explains why the new solutions are safe.    This book is a systematic account of common server-side Java programming mistakes, their causes and solutions. It covers antipatterns for base Java and J2EE concepts such as Servlets, JSPs, EJBs, enterprise connection models, and scalability. If you are an intermediate Java programmer, analyst or architect eager to avoid the bitter experiences of others, this book is for you.",
             "status": "PUBLISH",
             "authors": [
@@ -4039,26 +3899,6 @@
             ]
         },
         {
-            "_id": 310,
-            "title": "Spring Batch in Action",
-            "isbn": "1935182951",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2011-10-01T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/templier.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Arnaud Cogoluegnes",
-                "Thierry Templier",
-                "Gary Gregory",
-                "Olivier Bazoud"
-            ],
-            "categories": [
-                "In Action"
-            ]
-        },
-        {
             "_id": 312,
             "title": "JDK 1.4 Tutorial",
             "isbn": "1930110456",
@@ -4067,6 +3907,7 @@
                 "$date": "2002-03-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/travis.jpg",
+            "shortDescription": "Java is a success. It is now used across the programming landscape, from embedded devices to enterprise-class distributed systems. As Java's use increases, the pressure grows for it to expand to meet the diverse needs of the developer communities. The latest edition of Java, JDK 1.4 (or J2SE 1.4), includes new features like a new I/O system, a persistent preferences framework, Java Web Start, and Java regular expressions.    This book lets experienced developers as well as novices learn JDK 1.4's new features quickly. It provides a clear exposition of the important new topics with plenty of well documented code. All the examples are substantial and solve real-world problems but aren't cluttered with unnecessary details. The new features are covered in a comprehensive and matter-of-fact way without digressions into philosophy or theory. After reading this book, a developer will be able to use Java's new features with confidence and skill.",
             "longDescription": "Java is a success. It is now used across the programming landscape, from embedded devices to enterprise-class distributed systems. As Java's use increases, the pressure grows for it to expand to meet the diverse needs of the developer communities. The latest edition of Java, JDK 1.4 (or J2SE 1.4), includes new features like a new I/O system, a persistent preferences framework, Java Web Start, and Java regular expressions.    This book lets experienced developers as well as novices learn JDK 1.4's new features quickly. It provides a clear exposition of the important new topics with plenty of well documented code. All the examples are substantial and solve real-world problems but aren't cluttered with unnecessary details. The new features are covered in a comprehensive and matter-of-fact way without digressions into philosophy or theory. After reading this book, a developer will be able to use Java's new features with confidence and skill.",
             "status": "PUBLISH",
             "authors": [
@@ -4108,6 +3949,7 @@
                 "$date": "2006-11-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/updegraff.jpg",
+            "shortDescription": "Reports are the lifeline of business, so a good reporting environment is a big deal. With a powerful tool like Microsoft Reporting Services, .NET developers can add reporting to any type of application, regardless of its target platform or development language. Greatly improved for SQL Server 2005, Reporting Services now provides tighter integration with SQL Server, improved developer tools, and an expanded array of options to empower end users.    SQL Server 2005 Reporting Services in Action helps you build and manage flexible reporting solutions and develop report-enabled applications. In this clear, well-illustrated book, you  ll follow a report from creation to publication. Along the way you  ll explore flexible delivery options like web-based, on-demand, and subscribed reports   complete with cool new features like direct printing and client-side sorting.    For applications that require custom reporting, you'll learn to define reports with RDL and push them to the Report Server using the Report Manager Web Service API. You  ll also see how to write server extensions to expand the range of data processing and report delivery options.    Written for developers with a solid foundation in .NET and SQL Server.",
             "longDescription": "Reports are the lifeline of business, so a good reporting environment is a big deal. With a powerful tool like Microsoft Reporting Services, .NET developers can add reporting to any type of application, regardless of its target platform or development language. Greatly improved for SQL Server 2005, Reporting Services now provides tighter integration with SQL Server, improved developer tools, and an expanded array of options to empower end users.    SQL Server 2005 Reporting Services in Action helps you build and manage flexible reporting solutions and develop report-enabled applications. In this clear, well-illustrated book, you  ll follow a report from creation to publication. Along the way you  ll explore flexible delivery options like web-based, on-demand, and subscribed reports   complete with cool new features like direct printing and client-side sorting.    For applications that require custom reporting, you'll learn to define reports with RDL and push them to the Report Server using the Report Manager Web Service API. You  ll also see how to write server extensions to expand the range of data processing and report delivery options.    Written for developers with a solid foundation in .NET and SQL Server.",
             "status": "PUBLISH",
             "authors": [
@@ -4145,6 +3987,7 @@
                 "$date": "2002-05-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/verbruggen.jpg",
+            "shortDescription": "An increasing number of tasks in application programming and web design requires creating and manipulating graphics. Perl is a powerful and flexible language that is not commonly associated with graphics programming. The speed of developing in Perl plus the large number of freely available Perl graphics modules, make it an excellent option for the rapid development of graphics applications.    Graphics Programming with Perl is a guide to the graphics and imaging modules and tools available to the Perl programmer. It covers subjects ranging from drawing your own pictures and dynamic graphics for web pages to rendering three-dimensional scenes and manipulating individual image pixels. The text is liberally illustrated with example code and programs that show how to achieve common, and sometimes not so common, graphics programming tasks. For the even less common tasks, the book shows you how to write your own modules.",
             "longDescription": "An increasing number of tasks in application programming and web design requires creating and manipulating graphics. Perl is a powerful and flexible language that is not commonly associated with graphics programming. The speed of developing in Perl plus the large number of freely available Perl graphics modules, make it an excellent option for the rapid development of graphics applications.    Graphics Programming with Perl is a guide to the graphics and imaging modules and tools available to the Perl programmer. It covers subjects ranging from drawing your own pictures and dynamic graphics for web pages to rendering three-dimensional scenes and manipulating individual image pixels. The text is liberally illustrated with example code and programs that show how to achieve common, and sometimes not so common, graphics programming tasks. For the even less common tasks, the book shows you how to write your own modules.",
             "status": "PUBLISH",
             "authors": [
@@ -4156,24 +3999,6 @@
             ]
         },
         {
-            "_id": 317,
-            "title": "RabbitMQ in Action",
-            "isbn": "1935182978",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-04-20T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/videla.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Alvaro Videla",
-                "Jason J.W. Williams"
-            ],
-            "categories": [
-                "Software Engineering"
-            ]
-        },
-        {
             "_id": 318,
             "title": "XDoclet in Action",
             "isbn": "1932394052",
@@ -4182,6 +4007,7 @@
                 "$date": "2003-11-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls.jpg",
+            "shortDescription": "Are you tired of writing the same Java code, over and over again  XDoclet will take the burden of repetitive development tasks off your shoulders by automating them. XDoclet is a metadata-driven, code generation engine for Java. Starting from simple JavaDoc-style comments, it generates deployment descriptors, interfaces, framework classes and other utility classes your project requires.    XDoclet in Action is an easy to read introduction to XDoclet and its uses. It is a resource on code generation with this popular open source tool. With many short code examples and a full-scale J2EE example, the book shows you how to use XDoclet with EJBs, Servlets, JMX, and other technologies. You'll also learn how to customize XDoclet beyond its out-of-the-box capabilities to generate code specific to your application.    With this book you will learn how to write less code, how to keep your application components in sync, and how to keep your deployment, interface, utility and other information all in one place.",
             "longDescription": "Are you tired of writing the same Java code, over and over again  XDoclet will take the burden of repetitive development tasks off your shoulders by automating them. XDoclet is a metadata-driven, code generation engine for Java. Starting from simple JavaDoc-style comments, it generates deployment descriptors, interfaces, framework classes and other utility classes your project requires.    XDoclet in Action is an easy to read introduction to XDoclet and its uses. It is a resource on code generation with this popular open source tool. With many short code examples and a full-scale J2EE example, the book shows you how to use XDoclet with EJBs, Servlets, JMX, and other technologies. You'll also learn how to customize XDoclet beyond its out-of-the-box capabilities to generate code specific to your application.    With this book you will learn how to write less code, how to keep your application components in sync, and how to keep your deployment, interface, utility and other information all in one place.",
             "status": "PUBLISH",
             "authors": [
@@ -4222,6 +4048,7 @@
                 "$date": "2007-08-01T00:00:00.000-0700"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls3.jpg",
+            "shortDescription": "Spring is a fresh breeze blowing over the Java landscape. Based on the principles of dependency injection, interface-oriented design, and aspect-oriented programming, Spring combines enterprise application power with the simplicity of plain-old Java objects (POJOs).    In this second edition, Spring in Action has been completely updated to cover the exciting new features of Spring 2.0. The book begins by introducing you to the core concepts of Spring and then quickly launches into a hands-on exploration of the framework. Combining short code snippets and an ongoing example developed throughout the book, it shows you how to build simple and efficient J2EE applications. You will see how to solve persistence problems, handle asynchronous messaging, create and consume remote services, build web applications, and integrate with most popular web frameworks. You will learn how to use Spring to write simpler, easier to maintain code so that you can focus on what really matters--your critical business needs.",
             "longDescription": "Spring is a fresh breeze blowing over the Java landscape. Based on the principles of dependency injection, interface-oriented design, and aspect-oriented programming, Spring combines enterprise application power with the simplicity of plain-old Java objects (POJOs).    In this second edition, Spring in Action has been completely updated to cover the exciting new features of Spring 2.0. The book begins by introducing you to the core concepts of Spring and then quickly launches into a hands-on exploration of the framework. Combining short code snippets and an ongoing example developed throughout the book, it shows you how to build simple and efficient J2EE applications. You will see how to solve persistence problems, handle asynchronous messaging, create and consume remote services, build web applications, and integrate with most popular web frameworks. You will learn how to use Spring to write simpler, easier to maintain code so that you can focus on what really matters--your critical business needs.",
             "status": "PUBLISH",
             "authors": [
@@ -4279,6 +4106,7 @@
                 "$date": "2002-03-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/white.jpg",
+            "shortDescription": "Java2, Micro Edition (J2ME) is a technology defined by many specifications. These specifications help J2ME address the diverse needs of this wide spectrum of consumer products. This guide describes the architecture of J2ME and demonstrates the various specifications for programming Java applications.    Through the use of a tutorial application and various programming examples, the common elements of most applications, namely user interface, event handling, data storage, networking, and input/output are examined. Also covered are design considerations when building software for resource-constrained devices as well as J2ME competition and associated technologies in these devices.    Tutorial and API example application source code downloads will be available from this site.",
             "longDescription": "Java2, Micro Edition (J2ME) is a technology defined by many specifications. These specifications help J2ME address the diverse needs of this wide spectrum of consumer products. This guide describes the architecture of J2ME and demonstrates the various specifications for programming Java applications.    Through the use of a tutorial application and various programming examples, the common elements of most applications, namely user interface, event handling, data storage, networking, and input/output are examined. Also covered are design considerations when building software for resource-constrained devices as well as J2ME competition and associated technologies in these devices.    Tutorial and API example application source code downloads will be available from this site.",
             "status": "PUBLISH",
             "authors": [
@@ -4356,6 +4184,7 @@
                 "$date": "2002-12-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/williamson.jpg",
+            "shortDescription": "Although CGI scripts provide 80% of today's server side processing, they are slow, inefficient, and memory-hungry. A new species is evolving to take their place, one which is lean, fast, portable, and easy to maintain: Java servlets.    Servlets are not merely an alternative to CGI, for they can do much more. Servlets have opened the door to a world of client/server applications that would have been too difficult or too time-consuming to consider before.    Java Servlets: By Example takes the reader into the world of servlets, moving example by example from the simple to the complex. An early chapter explains the simple HTML form processing through servlets. A later chapter shows how to connect a Java applet to a servlet, which is itself connected to a database.    Java Servlets: By Example is full of real-world, ready-to-run example code. Each chapter deals with a new problem and takes the reader through a series of servlet-based solutions. However, the book is detailed enough that it may also serve as a reference for the developer.",
             "longDescription": "Although CGI scripts provide 80% of today's server side processing, they are slow, inefficient, and memory-hungry. A new species is evolving to take their place, one which is lean, fast, portable, and easy to maintain: Java servlets.    Servlets are not merely an alternative to CGI, for they can do much more. Servlets have opened the door to a world of client/server applications that would have been too difficult or too time-consuming to consider before.    Java Servlets: By Example takes the reader into the world of servlets, moving example by example from the simple to the complex. An early chapter explains the simple HTML form processing through servlets. A later chapter shows how to connect a Java applet to a servlet, which is itself connected to a database.    Java Servlets: By Example is full of real-world, ready-to-run example code. Each chapter deals with a new problem and takes the reader through a series of servlet-based solutions. However, the book is detailed enough that it may also serve as a reference for the developer.",
             "status": "PUBLISH",
             "authors": [
@@ -4375,6 +4204,7 @@
                 "$date": "1999-12-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wilson.jpg",
+            "shortDescription": "Here's a book that shows you when and how to use XML from both a programming and business perspective. Laden with source code, XML Programming with VB and ASP helps you build solutions that are flexible, future-proof, and self-describing. It will help you apply XML concepts between the client and the server and the server and data objects or data services.    Finally, you have everything a VB and ASP developer needs to keep up with the explosive growth of XML.",
             "longDescription": "Here's a book that shows you when and how to use XML from both a programming and business perspective. Laden with source code, XML Programming with VB and ASP helps you build solutions that are flexible, future-proof, and self-describing. It will help you apply XML concepts between the client and the server and the server and data objects or data services.    Finally, you have everything a VB and ASP developer needs to keep up with the explosive growth of XML.",
             "status": "PUBLISH",
             "authors": [
@@ -4395,6 +4225,7 @@
                 "$date": "1999-11-01T00:00:00.000-0800"
             },
             "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/yuhanna.jpg",
+            "shortDescription": "Databases are growing larger, and the use of distributed databases is on the rise. Oracle8i Database Administration addresses some of the most common yet complex issues that are faced by DBAs around the world.    Oracle has the largest market share in Database Management software and is the world's second largest software company. This book is designed for for Oracle Database administrators and others who are involved in planning, programming, administration, and implementation of Oracle8 Databases.    Although this book targets intermediate and advanced database administrators, it can also be an invaluable resource to entry-level DBAs, designers and developers, project managers, system administrators, data warehousing professionals or anyone interested in Oracle.    Oracle8i Database Administration uses a Q&A approach that provides in-depth technical solutions. The questions in this book have been compiled from many sources including Oracle forums, the Internet, and the author's personal experiences. The book also examines features that are new in Oracle8.",
             "longDescription": "Databases are growing larger, and the use of distributed databases is on the rise. Oracle8i Database Administration addresses some of the most common yet complex issues that are faced by DBAs around the world.    Oracle has the largest market share in Database Management software and is the world's second largest software company. This book is designed for for Oracle Database administrators and others who are involved in planning, programming, administration, and implementation of Oracle8 Databases.    Although this book targets intermediate and advanced database administrators, it can also be an invaluable resource to entry-level DBAs, designers and developers, project managers, system administrators, data warehousing professionals or anyone interested in Oracle.    Oracle8i Database Administration uses a Q&A approach that provides in-depth technical solutions. The questions in this book have been compiled from many sources including Oracle forums, the Internet, and the author's personal experiences. The book also examines features that are new in Oracle8.",
             "status": "PUBLISH",
             "authors": [
@@ -4421,55 +4252,6 @@
             "categories": [
                 "Web Development"
             ]
-        },
-        {
-            "_id": 512,
-            "title": "Enterprise OSGi In Action",
-            "isbn": "1617290130",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/cummins.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Holly Cummins",
-                "Timothy Ward"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 513,
-            "title": "Ext JS in Action, Second Edition",
-            "isbn": "1617290327",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-02-04T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/garcia3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jesus Garcia",
-                "Grgur Grisogono",
-                "",
-                "Jacob K. Andresen"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 514,
-            "title": "Android in Action, Third Edition",
-            "isbn": "1617290505",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2011-11-15T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ableson3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "W. Frank Ableson",
-                "Robi Sen",
-                "Chris King",
-                "C. Enrique Ortiz"
-            ],
-            "categories": []
         },
         {
             "_id": 515,
@@ -4515,217 +4297,6 @@
             ]
         },
         {
-            "_id": 517,
-            "title": "Third-Party JavaScript ",
-            "isbn": "1617290548",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-03-11T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/vinegar.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Ben Vinegar",
-                "Anton Kovalyov"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 519,
-            "title": "Multimedia Computing",
-            "isbn": "020152029X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1993-09-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Matthew E. Hodges"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 520,
-            "title": "Web Development with JavaServer Pages",
-            "isbn": "1884777996",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2000-05-15T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Duane K. Fields",
-                "Mark A. Kolb"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 521,
-            "title": "Up to Speed with Swing",
-            "isbn": "1884777643",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1998-05-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Steven J. Gutz"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 522,
-            "title": "Manager's Guide to Open Source",
-            "isbn": "193239429X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2004-10-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Maria Winslow"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 523,
-            "title": "Programming Web Services with Java",
-            "isbn": "1930110421",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2002-10-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Ajamu A. Wesley"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 525,
-            "title": "TCP/IP Programming for OS/2",
-            "isbn": "132612496",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1996-04-23T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Steven J. Gutz"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 530,
-            "title": "Implementing SAP R/3, Second Edition",
-            "isbn": "013889213X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1997-09-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [],
-            "categories": []
-        },
-        {
-            "_id": 531,
-            "title": "Implementing SAP R/3",
-            "isbn": "1884777228",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1996-06-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [],
-            "categories": []
-        },
-        {
-            "_id": 532,
-            "title": "Using C-Kermit: Communication Software",
-            "isbn": "1884777147",
-            "pageCount": 0,
-            "status": "PUBLISH",
-            "authors": [],
-            "categories": []
-        },
-        {
-            "_id": 533,
-            "title": "SCWCD Exam Study Kit",
-            "isbn": "1930110596",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2002-07-01T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "Hanumant Deshmukh",
-                "Jignesh Malavia"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 549,
-            "title": "Unit Testing in C++",
-            "isbn": "1617290386",
-            "pageCount": 0,
-            "status": "PUBLISH",
-            "authors": [
-                "Bruce Trask",
-                "Angel Roman"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 550,
-            "title": "Big Data",
-            "isbn": "1617290343",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/marz.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Nathan Marz",
-                "James Warren"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 551,
-            "title": "CoffeeScript in Action",
-            "isbn": "1617290629",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-05-09T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lee.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Patrick Lee"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 559,
-            "title": "SQL Server MVP Deep Dives, Volume 2",
-            "isbn": "1617290475",
-            "pageCount": 750,
-            "publishedDate": {
-                "$date": "2011-10-13T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/delaney.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Kalen Delaney",
-                "Louis Davidson",
-                "Greg Low",
-                "Brad McGehee",
-                "Paul Nielsen",
-                "Paul Randal",
-                "",
-                "Kimberly Tripp"
-            ],
-            "categories": []
-        },
-        {
             "_id": 560,
             "title": "HTML5 in Action",
             "isbn": "1617290491",
@@ -4745,1374 +4316,6 @@
                 "Greg Wanish"
             ],
             "categories": []
-        },
-        {
-            "_id": 562,
-            "title": "Java Persistence with Hibernate, Second Edition",
-            "isbn": "1617290459",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bauer3.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Christian Bauer",
-                "Gavin King",
-                "",
-                "Gary Gregory"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 566,
-            "title": "Hadoop in Practice",
-            "isbn": "1617290238",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-10-02T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/holmes.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Alex Holmes"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 569,
-            "title": "HBase in Action",
-            "isbn": "1617290521",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-11-02T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dimidukkhurana.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Nicholas Dimiduk",
-                "Amandeep Khurana"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 571,
-            "title": "Flex Mobile in Action",
-            "isbn": "1617290610",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-05-30T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/campos.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jonathan Campos"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 577,
-            "title": "HTML5 for .NET Developers",
-            "isbn": "1617290432",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-11-30T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jackson.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jim Jackson",
-                "II",
-                "Ian Gilman"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 580,
-            "title": "50 Android Hacks",
-            "isbn": "1617290564",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-06-03T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sessa.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Carlos M. Sessa"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 591,
-            "title": "PowerShell in Depth",
-            "isbn": "1617290556",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-02-20T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Don Jones",
-                "Richard Siddaway",
-                "",
-                "Jeffery Hicks"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 599,
-            "title": "Augmented Reality Revealed",
-            "isbn": "1617290165",
-            "pageCount": 0,
-            "status": "MEAP",
-            "authors": [
-                "Robert A. Rice Jr."
-            ],
-            "categories": []
-        },
-        {
-            "_id": 607,
-            "title": "Building Well-Structured JavaScript Applications",
-            "isbn": "1617290599",
-            "pageCount": 0,
-            "status": "MEAP",
-            "authors": [
-                "Julio C. Ody"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 611,
-            "title": "Linked Data",
-            "isbn": "1617290394",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-12-31T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dwood.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "David Wood",
-                "Marsha Zaidman",
-                "Luke Ruth",
-                "with Michael Hausenblas"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 620,
-            "title": "Mule in Action, Second Edition",
-            "isbn": "1617290823",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-02-20T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/dossot2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "David Dossot",
-                "John D'Emic",
-                "",
-                "Victor Romero"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 624,
-            "title": "Single Page Web Applications",
-            "isbn": "1617290750",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-09-19T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mikowski.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Michael S. Mikowski",
-                "Josh C. Powell"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 628,
-            "title": "The Art of Unit Testing, Second Edition",
-            "isbn": "1617290890",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-11-25T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/osherove2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Roy Osherove"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 629,
-            "title": "Play for Java",
-            "isbn": "1617290904",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-03-14T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/leroux.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Nicolas Leroux",
-                "Sietse de Kaper"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 631,
-            "title": "Hello World! Second Edition",
-            "isbn": "1617290920",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-12-12T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sande2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Warren Sande",
-                "Carter Sande"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 632,
-            "title": "Dart in Action",
-            "isbn": "1617290866",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-12-31T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/buckett.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Chris Buckett"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 634,
-            "title": "Redis in Action",
-            "isbn": "1617290858",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-06-18T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/carlson.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Josiah Carlson"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 636,
-            "title": "Using the TI-83 Plus/TI-84 Plus",
-            "isbn": "161729084X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-08-19T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Christopher R. Mitchell"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 637,
-            "title": "Neo4j in Action",
-            "isbn": "1617290769",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/partner.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Jonas Partner",
-                "Aleksa Vukotic",
-                "",
-                "Nicki Watt"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 639,
-            "title": "Programming the TI-83 Plus/TI-84 Plus",
-            "isbn": "1617290777",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-09-14T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mitchell.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Christopher R. Mitchell"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 640,
-            "title": "Functional Programming in Scala",
-            "isbn": "1617290653",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bjarnason.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Paul Chiusano",
-                "R\u00c3\u00banar Bjarnason"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 641,
-            "title": "Play for Scala",
-            "isbn": "1617290793",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-10-03T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hilton.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Peter Hilton",
-                "Erik Bakker",
-                "",
-                "Francisco Canedo"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 642,
-            "title": "Node.js in Practice",
-            "isbn": "1617290939",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/templier2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Alex Young",
-                "Marc Harter"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 643,
-            "title": "SonarQube in Action",
-            "isbn": "1617290955",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-10-30T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/papapetrou.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "G. Ann Campbell",
-                "Patroklos P. Papapetrou"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 644,
-            "title": "Windows Store App Development: C# and XAML",
-            "isbn": "1617290947",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-06-03T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pbrown3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Peter M. Brown"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 645,
-            "title": "Learn Windows IIS in a Month of Lunches",
-            "isbn": "1617290971",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-12-31T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/helmick.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jason C. Helmick"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 646,
-            "title": "Mondrian in Action",
-            "isbn": "161729098X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/back.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "William Back",
-                "Nicholas Goodman",
-                "",
-                "Julian Hyde"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 648,
-            "title": "RabbitMQ in Depth",
-            "isbn": "1617291005",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/roy.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Gavin M. Roy"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 649,
-            "title": "Akka in Action",
-            "isbn": "1617291013",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/roestenburg.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Raymond Roestenburg",
-                "Rob Bakker",
-                "Rob Williams",
-                "Steven Haines"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 650,
-            "title": "Extending jQuery",
-            "isbn": "161729103X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-08-12T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/wood.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Keith B. Wood"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 651,
-            "title": "OCA Java SE 7 Programmer I Certification Guide",
-            "isbn": "1617291048",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-04-02T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gupta.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Mala Gupta"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 652,
-            "title": "Kanban in Action",
-            "isbn": "1617291056",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-03-04T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hammarberg.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Marcus Hammarberg",
-                "Joakim Sunden"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 653,
-            "title": "Solr in Action",
-            "isbn": "1617291021",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-03-25T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/grainger.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Trey Grainger",
-                "Timothy Potter"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 655,
-            "title": "Making Sense of NoSQL",
-            "isbn": "1617291072",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-09-03T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mccreary.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Daniel G. McCreary",
-                "Ann M. Kelly"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 656,
-            "title": "Jaguar Development with PowerBuilder 7",
-            "isbn": "1884777864",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "1999-08-09T00:00:00.000-0700"
-            },
-            "status": "PUBLISH",
-            "authors": [
-                "MIchael Barlotta"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 657,
-            "title": "Grails in Action, Second Edition",
-            "isbn": "1617290963",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gsmith2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Glen Smith",
-                "Peter Ledbrook"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 658,
-            "title": "Rails 4 in Action",
-            "isbn": "1617291099",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bigg2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Ryan Bigg",
-                "Yehuda Katz",
-                "and Steve Klabnik",
-                ""
-            ],
-            "categories": []
-        },
-        {
-            "_id": 659,
-            "title": "Learn Windows PowerShell in a Month of Lunches, Second Edition",
-            "isbn": "1617291080",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-11-12T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Don Jones",
-                "Jeffery D. Hicks"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 662,
-            "title": "AOP in .NET",
-            "isbn": "1617291145",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-06-21T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/groves.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Matthew D. Groves"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 663,
-            "title": "Learn PowerShell Toolmaking in a Month of Lunches",
-            "isbn": "1617291161",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2012-12-12T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/jones4.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Don Jones",
-                "Jeffery Hicks"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 664,
-            "title": "CMIS and Apache Chemistry in Action",
-            "isbn": "1617291153",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mueller.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Florian M\u00c3\u00bcller",
-                "Jay Brown",
-                "Jeff Potts"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 667,
-            "title": "Action Guide (aka VB .NET)",
-            "isbn": "1930110324",
-            "pageCount": 0,
-            "status": "PUBLISH",
-            "authors": [
-                "Paul Messick"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 670,
-            "title": "Learn Active Directory Management in a Month of Lunches",
-            "isbn": "1617291196",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/siddaway3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Richard Siddaway"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 671,
-            "title": "Spring in Action, Fourth Edition",
-            "isbn": "161729120X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/walls5.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Craig Walls"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 672,
-            "title": "The Mikado Method",
-            "isbn": "1617291218",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-03-05T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ellnestam.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Ola Ellnestam",
-                "Daniel Brolund"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 676,
-            "title": "The Responsive Web",
-            "isbn": "1617291242",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/carver.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Matthew Carver"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 677,
-            "title": "Fast ASP.NET Websites",
-            "isbn": "1617291250",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-08-29T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hume.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Dean Alan Hume"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 678,
-            "title": "SBT in Action",
-            "isbn": "1617291277",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/suereth2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Joshua Suereth",
-                "Matthew Farwell"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 679,
-            "title": "PowerShell Deep Dives",
-            "isbn": "1617291315",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hicks.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Edited by Jeffery Hicks",
-                "Richard Siddaway",
-                "Oisin Grehan",
-                "",
-                "Aleksandar Nikolic"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 680,
-            "title": "Gradle in Action",
-            "isbn": "1617291307",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-02-18T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/muschko.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Benjamin Muschko"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 681,
-            "title": "Scalatra in Action",
-            "isbn": "1617291293",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/carrero2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Ivan Porto Carrero",
-                "Ross A. Baker",
-                "Dave Hrycyszyn",
-                "Stefan Ollinger",
-                "",
-                "Jared Armstrong"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 683,
-            "title": "AngularJS in Action",
-            "isbn": "1617291331",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bford.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Brian Ford",
-                "Lukas Ruebbelke"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 684,
-            "title": "Software Development Metrics",
-            "isbn": "1617291358",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/nicolette.jpg",
-            "status": "MEAP",
-            "authors": [
-                "David Nicolette"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 685,
-            "title": "F# Deep Dives",
-            "isbn": "1617291323",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/petricek_trelford.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Tomas Petricek",
-                "Phillip Trelford"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 686,
-            "title": "C# in Depth, Third Edition",
-            "isbn": "161729134X",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-09-19T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeet3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Jon Skeet"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 688,
-            "title": "PostGIS in Action, Second Edition",
-            "isbn": "1617291390",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/obe2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Regina Obe",
-                "Leo Hsu"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 689,
-            "title": "R in Action, Second Edition",
-            "isbn": "1617291382",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kabacoff2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Robert Kabacoff"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 691,
-            "title": "The Joy of Clojure, Second Edition",
-            "isbn": "1617291412",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-05-29T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/fogus2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Michael Fogus",
-                "Chris Houser"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 692,
-            "title": "iOS 7 in Action",
-            "isbn": "1617291420",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-04-03T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/lim2.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Brendan G. Lim",
-                "Martin Conte Mac Donell"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 693,
-            "title": "Hello App Inventor!",
-            "isbn": "1617291439",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/beer.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Paula Beer",
-                "Carl Simmons"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 696,
-            "title": "Ember.js in Action",
-            "isbn": "1617291455",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-06-10T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/skeie.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Joachim Haagen Skeie"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 697,
-            "title": "Netty in Action",
-            "isbn": "1617291471",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/maurer.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Norman Maurer",
-                "Courtney Robinson"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 699,
-            "title": "RavenDB in Action",
-            "isbn": "1617291501",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/syn-hershko.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Itamar Syn-Hershko"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 700,
-            "title": "OCP Java SE 7 Programmer II Certification Guide",
-            "isbn": "161729148X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/gupta2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Mala Gupta"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 702,
-            "title": "Backbone.js in Action",
-            "isbn": "1617291536",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/breed.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Samuel M. Breed",
-                "Cole Krumbholz",
-                "",
-                "Phillip Whisenhunt"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 703,
-            "title": "Clojure in Action, Second Edition",
-            "isbn": "1617291528",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rathore2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Amit Rathore"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 706,
-            "title": "Practical Data Science with R",
-            "isbn": "1617291560",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-04-02T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/zumel.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Nina Zumel",
-                "John Mount"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 707,
-            "title": "Secrets of the JavaScript Ninja pBook upgrade",
-            "pageCount": 0,
-            "status": "PUBLISH",
-            "authors": [],
-            "categories": []
-        },
-        {
-            "_id": 711,
-            "title": "ArcGIS Web Development",
-            "isbn": "1617291617",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rubalcava.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Rene Rubalcava"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 712,
-            "title": "Elasticsearch in Action",
-            "isbn": "1617291625",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hinman.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Radu Gheorghe",
-                "Matthew Lee Hinman"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 716,
-            "title": "Learn SCCM 2012 in a Month of Lunches",
-            "isbn": "1617291684",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bannan.jpg",
-            "status": "MEAP",
-            "authors": [
-                "James Bannan"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 717,
-            "title": "Programming for Musicians and Digital Artists",
-            "isbn": "1617291706",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kapur.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Ajay Kapur",
-                "Perry Cook",
-                "Spencer Salazar",
-                "",
-                "Ge Wang"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 719,
-            "title": "BDD in Action",
-            "isbn": "161729165X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/smart.jpg",
-            "status": "MEAP",
-            "authors": [
-                "John F. Smart"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 723,
-            "title": "Windows Phone 8 in Action",
-            "isbn": "1617291374",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2013-12-31T00:00:00.000-0800"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/binkley.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "Timothy Binkley-Jones",
-                "Massimo Perga",
-                "Michael Sync",
-                "Adam Benoit"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 724,
-            "title": "Titanium Alloy in Action",
-            "isbn": "1617291749",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alcocer.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Ricardo Alcocer"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 727,
-            "title": "Giraph in Action",
-            "isbn": "1617291757",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/martella.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Claudio Martella",
-                "Roman Shaposhnik",
-                "",
-                "Dionysios Logothetis"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 728,
-            "title": "The Well-Grounded Rubyist, Second Edition",
-            "isbn": "1617291692",
-            "pageCount": 0,
-            "publishedDate": {
-                "$date": "2014-06-24T00:00:00.000-0700"
-            },
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/black3.jpg",
-            "status": "PUBLISH",
-            "authors": [
-                "David A. Black"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 729,
-            "title": "Go in Action",
-            "isbn": "1617291781",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/ketelsen.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Brian Ketelsen",
-                "Erik St. Martin",
-                "",
-                "William Kennedy"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 731,
-            "title": "The Programmer's Guide to Apache Thrift ",
-            "isbn": "1617291811",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/abernethy.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Randy Abernethy"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 732,
-            "title": "Grokking Functional Programming",
-            "isbn": "1617291838",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/khan.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Aslam Khan"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 733,
-            "title": "CORS in Action",
-            "isbn": "161729182X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/hossain.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Monsur Hossain"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 736,
-            "title": "Reactive Design Patterns",
-            "isbn": "1617291803",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/kuhn.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Roland Kuhn",
-                "Jamie Allen"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 740,
-            "title": "Storm Applied",
-            "isbn": "1617291897",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/pathirana.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Sean Allen",
-                "Peter Pathirana",
-                "",
-                "Matthew Jankowski"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 743,
-            "title": "Real-World Machine Learning",
-            "isbn": "1617291927",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/brink.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Henrik Brink",
-                "Joseph Richards"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 744,
-            "title": "jQuery UI in Action",
-            "isbn": "1617291935",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/vantoll.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Theodore J. (T.J.) VanToll III"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 746,
-            "title": "Web Components in Action",
-            "isbn": "1617291943",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/buckett2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Chris Buckett"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 748,
-            "title": "JavaScript Application Design",
-            "isbn": "1617291951",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/bevacqua.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Nicolas G. Bevacqua"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 749,
-            "title": "Git in Practice",
-            "isbn": "1617291978",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/mcquaid.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Mike McQuaid"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 750,
-            "title": "Impala in Action",
-            "isbn": "1617291986",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/saltzer.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Richard L. Saltzer",
-                "Istvan Szegedi"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 751,
-            "title": "Java 8 in Action",
-            "isbn": "1617291994",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/urma.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Raoul-Gabriel Urma",
-                "Mario Fusco",
-                "",
-                "Alan Mycroft"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 753,
-            "title": "Elixir in Action",
-            "isbn": "161729201X",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/juric.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Sa\u00c5\u00a1a Juric\u00c2\u00b4"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 755,
-            "title": "MongoDB in Action, Second Edition",
-            "isbn": "1617291609",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker2.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Kyle Banker",
-                "Peter Bakkum",
-                "Tim Hawkins",
-                "Shaun Verch",
-                "",
-                "Douglas Garrett"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 757,
-            "title": "Getting MEAN with Mongo, Express, Angular, and Node",
-            "isbn": "1617292036",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/sholmes.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Simon Holmes"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 761,
-            "title": "jQuery in Action, Third Edition",
-            "isbn": "1617292079",
-            "pageCount": 0,
-            "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/derosa.jpg",
-            "status": "MEAP",
-            "authors": [
-                "Bear Bibeault",
-                "Yehuda Katz",
-                "",
-                "Aurelio De Rosa"
-            ],
-            "categories": []
-        },
-        {
-            "_id": 762,
-            "title": "moustafa",
-            "isbn": "123",
-            "pageCount": 567,
-            "publishedDate": "2024-07-03T14:57:00.000000",
-            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
-            "shortDescription": "vdisvj",
-            "longDescription": "djispdvi",
-            "status": "PUBLISH",
-            "authors": [
-                "fdbf"
-            ],
-            "categories": [
-                "software"
-            ]
-        },
-        {
-            "_id": 763,
-            "title": "Book 1",
-            "isbn": "12345",
-            "pageCount": 455,
-            "publishedDate": "2024-07-10T12:57:00.000000",
-            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
-            "shortDescription": "book number 1",
-            "longDescription": "book number 2",
-            "status": "PUBLISH",
-            "authors": [
-                "ahmed"
-            ],
-            "categories": [
-                "software"
-            ]
         }
     ]
 }

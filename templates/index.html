@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Book Categories</title>
 </head>
@@ -18,10 +15,9 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id = "nav-user">
           <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page"
-              href="{{ url_for('home') }}">Home</a>
+            <a class="nav-link active text-white" aria-current="page" href="{{ url_for('home') }}">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link active text-white" aria-current="page" href="{{ url_for('get_all_book', type='User') }}">Show All Books</a>
@@ -30,19 +26,33 @@
             <a class="nav-link active text-white" aria-current="page" href="{{ url_for('favourites') }}">Favourites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Logout</a>
+              <a id = "btn" class="nav-link text-white" href="{{ url_for('logout') }}">Logout</a>
+           
           </li>
         </ul>
       </div>
     </div>
   </nav>
+
+  <div class="container mt-5">
     <h3>Book Categories</h3>
-    <ul>
-        {% for category in categories %}
-            <li><a href="{{ url_for('category_books', category_name=category) }}">{{ category }}</a></li>
-        {% endfor %}
-    </ul>
-    
+    <div class="row">
+      {% for category in categories %}
+      <div class="col-md-3 mb-4">
+        <a href="{{ url_for('category_books', category_name=category) }}" class="text-decoration-none">
+          <div class="card shadow">
+            <img src="{{ url_for('static', filename='images/' ~ category ~ '.png') }}" alt="{{ category }}" class="card-img-top img-fluid rounded-top">
+            <div class="card-body">
+              <h5 class="card-title text-center">{{ category }}</h5>
+            </div>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  <script src="../static/js/navBar.js"></script>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script>
 
 </body>
 </html>

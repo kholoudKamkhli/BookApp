@@ -5,7 +5,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
-  <!-- <link rel="stylesheet" href="{{ url_for('static', filename='css/output.css') }}" /> -->
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
   <title>BOOKY</title>
@@ -22,13 +21,13 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id = 'nav-admin'>
           <li class="nav-item">
             <a class="nav-link active text-white" aria-current="page"
               href="{{ url_for('add_book') }}">Add Book</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Logout</a>
+            <a class="nav-link text-white" id = "btn" href="{{ url_for('logout') }}">Logout</a>
           </li>
         </ul>
       </div>
@@ -45,7 +44,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav">
+        <ul class="navbar-nav" id = 'nav-user'>
           <li class="nav-item">
             <a class="nav-link active text-white" aria-current="page"
               href="{{ url_for('home') }}">Home</a>
@@ -58,7 +57,7 @@
             <a class="nav-link active text-white" aria-current="page" href="{{ url_for('favourites') }}">Favourites</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Logout</a>
+            <a class="nav-link text-white" id = "btn" href="{{ url_for('logout') }}">Logout</a>
           </li>
         </ul>
       </div>
@@ -122,10 +121,10 @@
   </div>
   
   
-  
-  <a href="{{ url_for('home') }}">Back to Categories</a>
-  <script src="{{ url_for('static', filename='js/allbooks.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/allbooks.js') }}"></script>
   <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+  <script src="../static/js/navBar.js"></script>
+
 </body>
 
 </html>

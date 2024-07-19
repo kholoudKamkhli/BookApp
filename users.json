@@ -85,6 +85,84 @@
                     "Object-Technology Programming",
                     ""
                 ]
+            },
+            {
+                "_id": 17,
+                "title": "MongoDB in Action",
+                "isbn": "1935182870",
+                "pageCount": 0,
+                "publishedDate": {
+                    "$date": "2011-12-12T00:00:00.000-0800"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
+                "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
+                "longDescription": "MongoDB is a document-oriented database that's highly scalable and delivers very high-performance, especially with massive data sets that need to be spread across multiple servers. It blends the things you expect with any database   like indexing, querying, and high availability   with powerful new features like easy horizontal scaling (\"auto-sharding\"), map/reduce aggregation, and a flexible document data model to support dynamic schemas.    MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.    Along the way, all of MongoDB's major features are covered, including:        * Indexes and explain plans for efficient queries      * Atomic operations for managing simple data structures and manipulating complex, rich documents      * GridFS for storing and managing large binary objects (images, videos, etc.) in MongoDB      * Map-reduce for custom aggregations and reporting      * Master-slave replication and replica sets for automated failover      * Auto-sharding for automated horizontal scaling    The handy reference section on schema design patterns will help ease the transition from the relational data model of SQL to MongoDB's document-based data model. The numerous, detailed examples are implemented in Ruby and include comprehensive explanations.    MongoDB has been gaining traction in the developer community for its speed, flexibility, scalability, and ease of use. With production deployments that include SourceForge, Foursquare, and Shutterfly, MongoDB is proving to be a robust and reliable database system that keeps developers happy. Covering everything from installation to application design to deployment, MongoDB In Action is written for the application developer who wants to take advantage of MongoDB and get up and running quickly.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Kyle Banker"
+                ],
+                "categories": [
+                    "Next Generation Databases"
+                ]
+            },
+            {
+                "_id": 267,
+                "title": "PHP in Action",
+                "isbn": "1932394753",
+                "pageCount": 552,
+                "publishedDate": {
+                    "$date": "2007-07-01T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/reiersol.jpg",
+                "shortDescription": "\"If there was ever a textbook for software development in PHP, this would be it.\"    Cal Evans, Podcast Review, Zend Developer Network",
+                "longDescription": "To keep programming productive and enjoyable, state-of-the-art practices and principles are essential. Object-oriented programming and design help manage complexity by keeping components cleanly separated. Unit testing helps prevent endless, exhausting debugging sessions. Refactoring keeps code supple and readable. PHP offers all this, and more.    PHP in Action shows you how to apply PHP techniques and principles to all the most common challenges of web programming, including:    Web presentation and templates  User interaction including the Model-View-Contoller architecture  Input validation and form handling  Database connection and querying and abstraction  Object persistence  This book takes on the most important challenges of web programming in PHP 5 using state-of-the art programming and software design techniques including unit testing, refactoring and design patterns. It provides the essential skills you need for developing or maintaining complex to moderately complex PHP web applications.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Dagfinn Reiers\u00c3\u00b8l with Marcus Baker",
+                    "Chris Shiflett"
+                ],
+                "categories": [
+                    "PHP"
+                ]
+            },
+            {
+                "_id": 16,
+                "title": "Brownfield Application Development in .NET",
+                "isbn": "1933988711",
+                "pageCount": 550,
+                "publishedDate": {
+                    "$date": "2010-04-16T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
+                "shortDescription": "Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.",
+                "longDescription": "It's easy to get excited about building a new software project from scratch. So-called \"greenfield\" projects often involve learning new technology and the opportunity for experimentation. Working on established software projects may seem less glamorous.    Most software developers have inherited a monolithic application where the day-to-day tasks involve maintenance, incremental improvements, or even cleaning up the mess another programmer left behind. These legacy or brownfield projects often have tightly coupled components, low cohesion, and poor separation of concerns, making them fragile and resistant to change.    Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.    Starting with the build process and the introduction of unit tests, the authors show you how to set up the application so that in later chapters, you can make incremental changes aimed at decoupling components from each other. Each practice introduced will increase your confidence and ability to make subsequent changes to your code.    As the book proceeds, the authors introduce frameworks and tools commonly used today while still approaching the subject from a conceptual level so that you can substitute alternate tools as appropriate. This book examines the reasons why a tool is necessary, not the tool itself. Because the book is based on the authors' experiences, Brownfield Application Development in .Net moves beyond the theories and shows you the techniques you need to be successful.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Kyle Baley",
+                    "Donald Belcham"
+                ],
+                "categories": [
+                    "Microsoft"
+                ]
+            },
+            {
+                "_id": 277,
+                "title": "SOA Patterns",
+                "isbn": "1933988266",
+                "pageCount": 250,
+                "publishedDate": {
+                    "$date": "2012-09-12T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rotem.jpg",
+                "shortDescription": "In SOA Patterns, author Arnon Rotem-Gal-Oz provides detailed, technology-neutral solutions to these challenges, and many others. This book provides architectural guidance through patterns and anti-patterns. It shows you how to build real SOA services that feature flexibility, availability, and scalability.",
+                "longDescription": "SOA   Service Oriented Architecture   has become the leading solution for complex, connected business systems. While it's easy to grasp the theory of SOA, implementing well-designed, practical SOA systems can be a difficult challenge. Developers and enterprise architects still face the following issues:        * How to get high-availability with SOA      * How to know a service has failed      * How to create reports when data is scattered within multiple services      * How to increase the loose coupling of your SOA      * How to solve authentication and authorization for service consumers--internal and external      * How to integrate SOA and the UI      * How to avoid common SOA pitfalls      * How to choose technologies that increase the performance of your services    In SOA Patterns, author Arnon Rotem-Gal-Oz provides detailed, technology-neutral solutions to these challenges, and many others. This book provides architectural guidance through patterns and anti-patterns. It shows you how to build real SOA services that feature flexibility, availability, and scalability. Through an extensive set of patterns, this book identifies the major SOA pressure points and provides reusable techniques to address them. Each pattern pairs the classic Problem/Solution format with a unique technology map, showing where specific solutions fit into the general pattern.    SOA Patterns shows you how to address common SOA concerns, including the areas of performance, availability, scalability, security, management, service interaction, user interface interaction, and service aggregation. The SOA anti-patterns part shows you how to avoid common mistakes and how to refactor broken systems. The book also maps quality attributes to patterns so that you can easily find the patterns relevant to your problems.    WHAT'S INSIDE:        * Details more than 30 patterns for common SOA scenarios in the areas of security, performace, availability, UI integration, service aggregation and service interaction      * Describes more than 20 SOA pitfalls to avoid      * Spotlights the architecural perspective on SOA      * Explains technology mapping from conceptual solution to current technologies      * Provides extensive and practical advice on matching patterns to technologies  ",
+                "status": "PUBLISH",
+                "authors": [
+                    "Arnon Rotem-Gal-Oz"
+                ],
+                "categories": [
+                    "SOA"
+                ]
             }
         ]
     },

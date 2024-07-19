@@ -20,12 +20,12 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav" id = "nav-admin">
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="{{url_for("get_all_book", type="Admin")}}">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Logout</a>
+                <a class="nav-link text-white" id = "btn" href="{{url_for("logout")}}">Logout</a>
               </li>
              
             </ul>
@@ -80,6 +80,7 @@
       </div>
       
     
-    
+      <script src="../static/js/navBar.js"></script>
+
 </body>
 </html>
