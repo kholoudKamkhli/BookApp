@@ -162,10 +162,8 @@ def add_to_favourite(book_id):
         return jsonify({"success": False, "message": "User not found"})
     # get the user's favourite list
     favorites = user.get("favorites", [])
-    # get user's favourite books ids
-    fav_ids = [fav["_id"] for fav in favorites]
     # if the book not in the user's favourite list, add it
-    if book_id not in fav_ids:
+    if book not in favorites:
         favorites.append({"_id": book["_id"], "title": book["title"],"isbn": book["isbn"],
             "pageCount": book["pageCount"],
             "publishedDate": book["publishedDate"],
@@ -176,7 +174,7 @@ def add_to_favourite(book_id):
             "authors": book["authors"],
             "categories": book["categories"]})
     
-    user["favorites"] = favorites
+        user["favorites"] = favorites
     
     with open("users.json", "w") as users_file:
         json.dump(users_data, users_file, indent=4)    
