@@ -37,32 +37,41 @@
   {% if type == "User" %}
   <nav class="navbar navbar-expand-lg bg-body-tertiary custom_color mb-4">
     <div class="container-fluid">
-      <a class="navbar-brand text-white text-decoration-none"
-        href="{{ url_for('get_all_book', type='User') }}">BOOKY</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
-        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav" id = 'nav-user'>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page"
-              href="{{ url_for('home') }}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page"
-              href="{{ url_for('get_all_book', type='User') }}">Show All Books</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active text-white" aria-current="page" href="{{ url_for('favourites') }}">Favourites</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" id = "btn" href="{{ url_for('logout') }}">Logout</a>
-          </li>
-        </ul>
-      </div>
+        <a class="navbar-brand text-white text-decoration-none" href="{{ url_for('get_all_book', type='User') }}">BOOKY</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-white">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="#ffffff"
+                        d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z" />
+                </svg>
+            </span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+            <ul class="navbar-nav" id='nav-user'>
+              <li class="nav-item">
+                <form class="d-flex" role="search" method="post" action="/allbooks/search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="{{ url_for('home') }}">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="{{ url_for('get_all_book', type='User') }}">Show All Books</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="{{ url_for('favourites') }}">Favourites</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" id='btn' href="{{ url_for('logout') }}">Logout</a>
+                </li>
+            </ul>
+        </div>
     </div>
-  </nav>
+</nav>
+
   {% endif %}
   {% if category_name %}
   {% endif%}

@@ -106,8 +106,7 @@ def get_all_book():
     file_name = 'books.json'
     books = Book.create_books_from_json(file_name)
     return render_template('all_books.html',books=books,type = type,category_name = None)
-
-
+    
 #---------------------------------------------------------------------------------------------------------------
 # getting the user's favourite books
 @app.route("/favourites")
@@ -339,3 +338,18 @@ def edit_book_data():
 def logout():
     session.pop("mail",None)
     return render_template("login.html")
+#------------------------------------------------------------------------------------------
+@app.route("/allbooks/search", methods=["POST"])
+def search():
+    books = Book.create_books_from_json("books.json")
+    query_books = []
+    if request.method == "POST":
+        query = request.form.get("query", "")
+        print("query is")
+        print(query)
+        for book in books:
+            if query.lower() in book.title.lower():
+                query_books.append(book)
+        print(query_books)
+        return render_template('all_books.html', books=query_books, type="User", category_name=None)
+    return redirect(url_for('get_all_book', type='User'))
