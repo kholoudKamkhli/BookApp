@@ -4,30 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booky</title>
-
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/register.css') }}">
 </head>
 <body>
-    <div class = "register-body">
-        <img src = "../static/images/44a63db081c0b61fcce021ddab9f9505.jpg" alt="Image" class="logo">
-        <div>
-            <form id="registration-form" action="/" method="post">
-                <h3 class = "coloreful">Welcome to Booky</h3>
-                <h3>Sign In</h3>
-                <br>
-                <input type = "email" name = "email" placeholder="Email" id = "email" required>
-                <br>
-                <input type = "password" name = "password" placeholder="Password" required>
-                <br>
-                {% if validation %}
-                    <p class = "p">{{validation}}</p>
-                {% endif %} 
-                <input type = "submit" value = "login" id = "login">
-                <br>
-                <div>
-                    Don't have an account? <a href="/register">Register</a>
-                </div>
-            </form> 
+    <div class="container">
+        <div class = "register-body d-flex flex-md-row flex-sm-column justify-content-center align-items-center overflow-hidden">
+            <div class="image d-none d-md-block">
+                <img class="w-100" src = "../static/images/44a63db081c0b61fcce021ddab9f9505.jpg" alt="Image" class="logo">
+            </div>
+            <div>
+                <form id="registration-form" action="/" method="post">
+                    <h3 class = "coloreful">Welcome to Booky</h3>
+                    <h3>Sign In</h3>
+                    <br>
+                    <input type = "email" name = "email" placeholder="Email" id = "email" required>
+                    <br>
+                    <input type = "password" name = "password" placeholder="Password" required>
+                    <br>
+                    {% if validation %}
+                        <p class = "p">{{validation}}</p>
+                    {% endif %} 
+                    <input type = "submit" value = "login" id = "login">
+                    <br>
+                    <div>
+                        Don't have an account? <a href="/register">Register</a>
+                    </div>
+                </form> 
+            </div>
         </div>
     </div>
     <script src="{{ url_for('static', filename='js/login.js') }}"></script>
