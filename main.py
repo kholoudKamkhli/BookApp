@@ -103,7 +103,6 @@ def get_all_book():
     if "mail" not in session:
         return redirect("/")
     type = request.args.get("type")
-    print(type)
     file_name = 'books.json'
     books = Book.create_books_from_json(file_name)
     return render_template('all_books.html',books=books,type = type,category_name = None)
@@ -303,7 +302,6 @@ def edit_book(book_id):
 # handle admin's cancel edit
 @app.route("/cancel_edit")
 def cancel_edit():
-    
     return redirect(url_for("get_all_book", type="Admin"))
 #---------------------------------------------------------------------------------------------------------------
 # handle the editted book data

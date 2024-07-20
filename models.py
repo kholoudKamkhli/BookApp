@@ -54,143 +54,9 @@ class User:
         return None
     
     
-#----------------------------------------------------------------------------------------------------------------
-# # app/models.py
-
-# import json
-# from datetime import datetime
-
-# class Book:
-#     def __init__(self, _id, title, isbn, page_count, published_date, thumbnail_url, short_description, long_description, status, authors, categories):
-#         self._id = _id
-#         self.title = title
-#         self.isbn = isbn
-#         self.page_count = page_count
-#         self.published_date = datetime.strptime(published_date, '%Y-%m-%dT%H:%M:%S.%f%z') if published_date else None
-#         self.thumbnail_url = thumbnail_url
-#         self.short_description = short_description
-#         self.long_description = long_description
-#         self.status = status
-#         self.authors = authors
-#         self.categories = categories
-
-#     @classmethod
-#     def create_books_from_json(cls, file_name):
-#         books = []
-#         try:
-#             with open(file_name, 'r') as infile:
-#                 books_data = json.load(infile)
-#         except (FileNotFoundError, json.JSONDecodeError):
-#             books_data = []
-#         for book_data in books_data['books']:
-#             book = cls(
-#                 _id=book_data['_id'],
-#                 title=book_data['title'],
-#                 isbn=book_data.get('isbn', ''),  
-#                 page_count=book_data.get('pageCount', 0),  
-#                 published_date=book_data['publishedDate']['$date'] if 'publishedDate' in book_data else None,
-#                 thumbnail_url=book_data.get('thumbnailUrl', ''),
-#                 short_description=book_data.get('shortDescription', ''),
-#                 long_description=book_data.get('longDescription', ''),
-#                 status=book_data.get('status', ''),
-#                 authors=book_data.get('authors', []),
-#                 categories=book_data.get('categories', [])
-#             )
-#             books.append(book)
-#         return books
-
-#     @classmethod
-#     def get_unique_categories(cls, file_name):
-#         categories = set()
-#         books = cls.create_books_from_json(file_name)
-#         for book in books:
-#             for category in book.categories:
-#                 if category != "":
-#                     categories.add(category)
-#                 if category == "S":
-#                     print(book._id)
-#         return categories
-#     @classmethod
-#     def get_specific_category_books(cls, specified_category,file_name):
-#         category_books = set()
-#         books = cls.create_books_from_json(file_name)
-#         for book in books:
-#             for category in book.categories:
-#                 if category == specified_category:
-#                     category_books.add(book)
-#         return category_books
-# import json
-# from datetime import datetime
-
-# class Book:
-#     def __init__(self, _id, title, isbn, page_count, published_date, thumbnail_url, short_description, long_description, status, authors, categories):
-#         self._id = _id
-#         self.title = title
-#         self.isbn = isbn
-#         self.page_count = page_count
-#         self.published_date = datetime.strptime(published_date, '%Y-%m-%dT%H:%M:%S.%f%z') if published_date else None
-#         self.thumbnail_url = thumbnail_url
-#         self.short_description = short_description
-#         self.long_description = long_description
-#         self.status = status
-#         self.authors = authors
-#         self.categories = categories
-
-#     @classmethod
-#     def create_books_from_json(cls, file_name):
-#         books = []
-#         try:
-#             with open(file_name, 'r') as infile:
-#                 books_data = json.load(infile)
-#         except (FileNotFoundError, json.JSONDecodeError):
-#             books_data = {"books": []}  # Initialize with empty structure if file is empty or malformed
-#         for book_data in books_data['books']:
-#             published_date = None
-#             if 'publishedDate' in book_data:
-#                 published_date_data = book_data['publishedDate']
-#                 if isinstance(published_date_data, dict) and '$date' in published_date_data:
-#                     published_date = published_date_data['$date']
-#                 elif isinstance(published_date_data, str):
-#                     published_date = published_date_data
-#             book = cls(
-#                 _id=book_data['_id'],
-#                 title=book_data['title'],
-#                 isbn=book_data.get('isbn', ''),  
-#                 page_count=book_data.get('pageCount', 0),  
-#                 published_date=published_date,
-#                 thumbnail_url=book_data.get('thumbnailUrl', ''),
-#                 short_description=book_data.get('shortDescription', ''),
-#                 long_description=book_data.get('longDescription', ''),
-#                 status=book_data.get('status', ''),
-#                 authors=book_data.get('authors', []),
-#                 categories=book_data.get('categories', [])
-#             )
-#             books.append(book)
-#         return books
-
-#     @classmethod
-#     def get_unique_categories(cls, file_name):
-#         categories = set()
-#         books = cls.create_books_from_json(file_name)
-#         for book in books:
-#             for category in book.categories:
-#                 if category != "":
-#                     categories.add(category)
-#         return categories
-
-#     @classmethod
-#     def get_specific_category_books(cls, specified_category, file_name):
-#         category_books = set()
-#         books = cls.create_books_from_json(file_name)
-#         for book in books:
-#             for category in book.categories:
-#                 if category == specified_category:
-#                     category_books.add(book)
-#         return category_books
-
 import json
 from datetime import datetime
-
+# creating Book class to handle Book data
 class Book:
     def __init__(self, _id, title, isbn, page_count, published_date, thumbnail_url, short_description, long_description, status, authors, categories):
         self._id = _id
@@ -204,7 +70,7 @@ class Book:
         self.status = status
         self.authors = authors
         self.categories = categories
-
+    # function to parse the data of publish for books
     def parse_date(self, date_str):
         date_formats = ['%Y-%m-%dT%H:%M:%S.%f%z', '%Y-%m-%dT%H:%M', '%Y-%m-%dT%H:%M:%S.%f']
         for fmt in date_formats:
@@ -213,8 +79,9 @@ class Book:
             except ValueError:
                 continue
         return None
-
+    #creating class methods that will be used in the backend 
     @classmethod
+    #create list of objects of books and return them
     def create_books_from_json(cls, file_name):
         books = []
         try:
@@ -230,7 +97,7 @@ class Book:
                     published_date = published_date_data['$date']
                 elif isinstance(published_date_data, str):
                     published_date = published_date_data
-                
+            # create book instance  
             book = cls(
                 _id=book_data['_id'],
                 title=book_data['title'],
@@ -244,9 +111,11 @@ class Book:
                 authors=book_data.get('authors', []),
                 categories=book_data.get('categories', [])
             )
+            # add the book instance to the list 
             books.append(book)
+        # return the list
         return books
-
+    # method to get the unique categories of the books
     @classmethod
     def get_unique_categories(cls, file_name):
         categories = set()
@@ -256,7 +125,7 @@ class Book:
                 if category != "":
                     categories.add(category)
         return categories
-
+    # method to get books that belong to specific category
     @classmethod
     def get_specific_category_books(cls, specified_category, file_name):
         category_books = set()
