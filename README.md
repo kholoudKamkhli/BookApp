@@ -13,6 +13,9 @@ List those here (if any).
 * Python: Install Python from the original website python.org
 * Flask: Install flask using pip (python's package installer). by running the following command: `pip install flask`
 * Jinja in Visual Studio Code: Ensure you have Visual Studio Code installed. Jinja is a templating engine used by Flask, and it should be integrated into Visual Studio Code by default when you have the Python extension installed.
+## How to run project
+* Clone the project from github repo using command `git clone https://github.com/kholoudKamkhli/BookApp.git`
+* in the root directory run the following command `flask --app main.py run`
 ## Project Checklist
 - [x] It is available on GitHub.
 - [x] It uses the Flask web framework.
