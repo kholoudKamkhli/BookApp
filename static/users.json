@@ -21,6 +21,23 @@
                 "categories": [
                     "Java"
                 ]
+            },
+            {
+                "_id": 4,
+                "title": "Internet Security Essential",
+                "isbn": "978-1119510625",
+                "pageCount": 276,
+                "publishedDate": "2023-03-20",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "Understand the basics of internet security.",
+                "longDescription": "This book provides an overview of internet security principles, including encryption, firewalls, and threat management.",
+                "status": "Under review",
+                "authors": [
+                    "Michael Johnson"
+                ],
+                "categories": [
+                    "internet"
+                ]
             }
         ]
     },
