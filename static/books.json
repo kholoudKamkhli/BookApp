@@ -1,0 +1,327 @@
+{
+    "books": [
+        {
+            "_id": 1,
+            "title": "Java Fundamentals",
+            "isbn": "978-0135166307",
+            "pageCount": 456,
+            "publishedDate": "2023-01-15",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "A comprehensive guide to Java programming.",
+            "longDescription": "This book covers the fundamental concepts of Java programming, including basic syntax, object-oriented programming, and advanced features.",
+            "status": "PUBLISH",
+            "authors": [
+                "John Doe"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 3,
+            "title": "Mastering JavaScript",
+            "isbn": "978-1491950296",
+            "pageCount": 500,
+            "publishedDate": "2022-11-25",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "A deep dive into JavaScript programming.",
+            "longDescription": "Explore advanced JavaScript techniques, including ES6 features, asynchronous programming, and best practices for writing efficient code.",
+            "status": "PUBLISH",
+            "authors": [
+                "Emily Brown"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 4,
+            "title": "Internet Security Essential",
+            "isbn": "978-1119510625",
+            "pageCount": 276,
+            "publishedDate": "2023-03-20",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Understand the basics of internet security.",
+            "longDescription": "This book provides an overview of internet security principles, including encryption, firewalls, and threat management.",
+            "status": "Under review",
+            "authors": [
+                "Michael Johnson"
+            ],
+            "categories": [
+                "internet"
+            ]
+        },
+        {
+            "_id": 6,
+            "title": "Introduction to Java Programming",
+            "isbn": "978-0134694726",
+            "pageCount": 720,
+            "publishedDate": "2023-02-01",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "A beginner's guide to Java programming.",
+            "longDescription": "This book introduces Java programming from the ground up, covering fundamental concepts and providing practical exercises.",
+            "status": "PUBLISH",
+            "authors": [
+                "Robert Martin"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 7,
+            "title": "Modern Web Design",
+            "isbn": "978-1119293561",
+            "pageCount": 256,
+            "publishedDate": "2023-04-12",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Design stunning websites with modern techniques.",
+            "longDescription": "Learn about the latest trends and techniques in web design, including UX/UI principles and design tools.",
+            "status": "Done",
+            "authors": [
+                "Olivia Davis"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 8,
+            "title": "Java Programming for Beginners",
+            "isbn": "978-0596009205",
+            "pageCount": 384,
+            "publishedDate": "2023-07-01",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Learn Java programming from scratch.",
+            "longDescription": "A practical guide for beginners to learn Java programming, with step-by-step examples and exercises.",
+            "status": "PUBLISH",
+            "authors": [
+                "Daniel Green"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 9,
+            "title": "Building Secure Web Applications",
+            "isbn": "978-1492031622",
+            "pageCount": 448,
+            "publishedDate": "2023-08-15",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Best practices for securing web applications.",
+            "longDescription": "This book covers security best practices for web applications, including vulnerability assessment and secure coding techniques.",
+            "status": "Under review",
+            "authors": [
+                "Chris Wilson"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 10,
+            "title": "Internet of Things (IoT)",
+            "isbn": "978-1491951538",
+            "pageCount": 300,
+            "publishedDate": "2023-09-05",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Explore the world of IoT.",
+            "longDescription": "An introduction to the Internet of Things, including IoT devices, networking, and data management.",
+            "status": "PUBLISH",
+            "authors": [
+                "Emma White"
+            ],
+            "categories": [
+                "internet"
+            ]
+        },
+        {
+            "_id": 11,
+            "title": "Java Data Structures",
+            "isbn": "978-0134693340",
+            "pageCount": 400,
+            "publishedDate": "2023-10-10",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Understanding data structures in Java.",
+            "longDescription": "This book covers various data structures and algorithms in Java, including lists, stacks, queues, and trees.",
+            "status": "Done",
+            "authors": [
+                "Brian O'Neil"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 12,
+            "title": "Web Development with React",
+            "isbn": "978-1491954629",
+            "pageCount": 350,
+            "publishedDate": "2023-11-01",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Build modern web applications with React.",
+            "longDescription": "Learn how to build interactive user interfaces using the React framework, including hooks, components, and state management.",
+            "status": "PUBLISH",
+            "authors": [
+                "Sophia Clark"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 13,
+            "title": "Advanced Java Programming",
+            "isbn": "978-0134767835",
+            "pageCount": 550,
+            "publishedDate": "2024-01-15",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Dive into advanced Java programming concepts.",
+            "longDescription": "This book explores advanced topics in Java, including concurrency, network programming, and performance optimization.",
+            "status": "Under review",
+            "authors": [
+                "Alice Green"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 14,
+            "title": "Responsive Web Design",
+            "isbn": "978-1491950355",
+            "pageCount": 400,
+            "publishedDate": "2024-02-20",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Create responsive and mobile-first websites.",
+            "longDescription": "Learn how to design websites that adapt to different screen sizes and devices using responsive design techniques.",
+            "status": "PUBLISH",
+            "authors": [
+                "Mia Lewis"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 15,
+            "title": "Introduction to Internet Technologies",
+            "isbn": "978-0134670946",
+            "pageCount": 270,
+            "publishedDate": "2024-03-15",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "An introduction to key internet technologies.",
+            "longDescription": "This book provides an overview of fundamental internet technologies, including HTTP, HTML, and web servers.",
+            "status": "Done",
+            "authors": [
+                "Zoe Adams"
+            ],
+            "categories": [
+                "internet"
+            ]
+        },
+        {
+            "_id": 16,
+            "title": "Building Scalable Java Applications",
+            "isbn": "978-0137082198",
+            "pageCount": 450,
+            "publishedDate": "2024-04-01",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Design scalable Java applications for performance.",
+            "longDescription": "Learn how to design and build Java applications that can scale to handle large amounts of data and users.",
+            "status": "Under review",
+            "authors": [
+                "James Wilson"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 17,
+            "title": "Java for Intermediate Programmers",
+            "isbn": "978-0134685994",
+            "pageCount": 390,
+            "publishedDate": "2024-05-15",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Intermediate level Java programming guide.",
+            "longDescription": "This book is intended for programmers with some Java experience who want to deepen their understanding of the language.",
+            "status": "PUBLISH",
+            "authors": [
+                "Liam Johnson"
+            ],
+            "categories": [
+                "Java"
+            ]
+        },
+        {
+            "_id": 18,
+            "title": "Introduction to Modern Web Development",
+            "isbn": "978-1491956875",
+            "pageCount": 330,
+            "publishedDate": "2024-06-10",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Basics of modern web development practices.",
+            "longDescription": "Explore modern web development practices, including single-page applications, serverless architecture, and modern tooling.",
+            "status": "Done",
+            "authors": [
+                "Ella Martinez"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 19,
+            "title": "Internet Protocols and Services",
+            "isbn": "978-1119454905",
+            "pageCount": 295,
+            "publishedDate": "2024-07-25",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Understand internet protocols and services.",
+            "longDescription": "A comprehensive guide to internet protocols, including TCP/IP, DNS, and HTTP, and how they underpin internet services.",
+            "status": "Under review",
+            "authors": [
+                "Lucas Hall"
+            ],
+            "categories": [
+                "internet"
+            ]
+        },
+        {
+            "_id": 20,
+            "title": "Advanced Techniques in Web Development",
+            "isbn": "978-0137085632",
+            "pageCount": 540,
+            "publishedDate": "2024-08-30",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "Explore advanced web development techniques.",
+            "longDescription": "This book covers advanced topics in web development, including progressive web apps, web performance optimization, and complex user interfaces.",
+            "status": "PUBLISH",
+            "authors": [
+                "Charlotte Brown"
+            ],
+            "categories": [
+                "Web Development"
+            ]
+        },
+        {
+            "_id": 21,
+            "title": "test1",
+            "isbn": "123",
+            "pageCount": 122,
+            "publishedDate": "2024-07-14",
+            "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+            "shortDescription": "test",
+            "longDescription": "test",
+            "status": "PUBLISH",
+            "authors": [
+                "kholoud"
+            ],
+            "categories": [
+                "internet"
+            ]
+        }
+    ]
+}

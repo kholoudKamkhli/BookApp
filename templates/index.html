@@ -6,24 +6,40 @@
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
     <title>Book Categories</title>
+    <style>
+        .card-category {
+            position: relative;
+        }
+        .card-title {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: rgba(0, 0, 0, 0.5); 
+            color: white;
+            width: 100%; 
+            text-align: center;
+            padding: 5px 0; 
+        }
+    </style>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg bg-body-tertiary custom_color">
     <div class="container-fluid">
       <a class="navbar-brand text-white text-decoration-none" href="{{ url_for('get_all_book', type='User') }}">BOOKY</a>
-      <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon text-white"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></span>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-white">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg>
+        </span>
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-        <ul class="navbar-nav" id = "nav-user">
+        <ul class="navbar-nav" id="nav-user">
           <li class="nav-item">
-            <li class="nav-item">
-              <form class="d-flex" role="search" method="post" action="/allbooks/search">
-                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
-                  <button class="btn btn-outline-light" type="submit">Search</button>
-              </form>
+            <form class="d-flex" role="search" method="post" action="/allbooks/search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="query">
+              <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
           </li>
-        </li>
           <li class="nav-item">
             <a class="nav-link active text-white" aria-current="page" href="{{ url_for('home') }}">Home</a>
           </li>
@@ -34,8 +50,7 @@
             <a class="nav-link active text-white" aria-current="page" href="{{ url_for('favourites') }}">Favourites</a>
           </li>
           <li class="nav-item">
-              <a id = "btn" class="nav-link text-white" href="{{ url_for('logout') }}">Logout</a>
-           
+            <a id="btn" class="nav-link text-white" href="{{ url_for('logout') }}">Logout</a>
           </li>
         </ul>
       </div>
@@ -48,7 +63,7 @@
       {% for category in categories %}
       <div class="col-md-3 mb-4">
         <a href="{{ url_for('category_books', category_name=category) }}" class="text-decoration-none">
-          <div class="card shadow">
+          <div class=" card-category shadow">
             <img src="{{ url_for('static', filename='images/' ~ category ~ '.png') }}" alt="{{ category }}" class="card-img-top img-fluid rounded-top">
             <div class="card-body">
               <h5 class="card-title text-center">{{ category }}</h5>
@@ -61,6 +76,5 @@
   </div>
   <script src="../static/js/navBar.js"></script>
   <script src="{{ url_for('static', filename='js/index.js') }}"></script>
-
 </body>
 </html>

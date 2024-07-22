@@ -4,10 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Book</title>
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
-    />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
@@ -15,75 +12,111 @@
         <div class="container-fluid">
           <a class="navbar-brand text-white text-decoration-none" href="{{ url_for("get_all_book", type="Admin") }}">BOOKY</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></span>
+            <span class="navbar-toggler-icon"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="#ffffff" d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"/></svg></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-            <ul class="navbar-nav" id = "nav-admin">
+            <ul class="navbar-nav" id="nav-admin">
               <li class="nav-item">
                 <a class="nav-link active text-white" aria-current="page" href="{{url_for("get_all_book", type="Admin")}}">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" id = "btn" href="{{ url_for('logout') }}">Logout</a>
+                <a class="nav-link text-white" id="btn" href="{{ url_for('logout') }}">Logout</a>
               </li>
-             
             </ul>
           </div>
         </div>
       </nav>
-    <div class = "p-5 m-5">
+      
+    <div class="container p-5 m-5 w-50 mx-auto">
         <h2 class="text-center">Edit: {{book.title}}</h2>
-        <form method="POST" action="{{ url_for('edit_book_data') }}">
+        <form method="POST" action="{{ url_for('edit_book_data') }}" novalidate>
             <input type="hidden" id="bookId" name="bookId" value="{{ book._id }}">
+
             <div class="mb-3">
                 <label for="title" class="form-label">Title:</label>
-                <input type="text" id="title" name="title" class="form-control" required>
+                <input type="text" id="title" name="title" class="form-control" value="{{ book.title }}" required>
+                <div class="invalid-feedback">Title is required.</div>
             </div>
+
             <div class="mb-3">
                 <label for="isbn" class="form-label">ISBN:</label>
-                <input type="text" id="isbn" name="isbn" class="form-control" required>
+                <input type="text" id="isbn" name="isbn" class="form-control" value="{{ book.isbn }}" required>
+                <div class="invalid-feedback">ISBN is required.</div>
             </div>
+
             <div class="mb-3">
                 <label for="thumbnailUrl" class="form-label">Thumbnail URL:</label>
-                <input type="url" id="thumbnailUrl" name="thumbnailUrl" class="form-control">
+                <input type="url" id="thumbnailUrl" name="thumbnailUrl" class="form-control" value="{{ book.thumbnailUrl }}">
+                <div class="invalid-feedback">Invalid URL format.</div>
             </div>
+
             <div class="mb-3">
                 <label for="shortDescription" class="form-label">Short Description:</label>
-                <textarea id="shortDescription" name="shortDescription" class="form-control" required></textarea>
+                <textarea id="shortDescription" name="shortDescription" class="form-control" required>{{ book.shortDescription }}</textarea>
+                <div class="invalid-feedback">Short Description is required.</div>
             </div>
+
             <div class="mb-3">
                 <label for="longDescription" class="form-label">Long Description:</label>
-                <textarea id="longDescription" name="longDescription" class="form-control"></textarea>
+                <textarea id="longDescription" name="longDescription" class="form-control">{{ book.longDescription }}</textarea>
             </div>
+
             <div class="mb-3">
                 <label for="status" class="form-label">Status:</label>
-                <input type="text" id="status" name="status" class="form-control" required>
+                <select id="status" name="status" class="form-control" required>
+                  <option value="">Select Status</option>
+                  <option value="PUBLISH" {% if book.status == 'PUBLISH' %}selected{% endif %}>PUBLISH</option>
+                  <option value="Done" {% if book.status == 'Done' %}selected{% endif %}>Done</option>
+                  <option value="Under review" {% if book.status == 'Under review' %}selected{% endif %}>Under review</option>
+                </select>
+                <div class="invalid-feedback">Status is required.</div>
             </div>
-            <div class="mb-3">
-                <label for="authors" class="form-label">Authors (comma separated):</label>
-                <input type="text" id="authors" name="authors" class="form-control" required>
-            </div>
-            <div class="mb-3">
-                <label for="categories" class="form-label">Categories (comma separated):</label>
-                <input type="text" id="categories" name="categories" class="form-control" required>
-            </div>
-            <button type="submit" class="btn btn-primary custom_color custom_border">Save</button>
-             <a class="btn btn-primary custom_color custom_border" href = "{{ url_for('cancel_edit') }}">cancel</a>
 
+            <div class="mb-3">
+                <label for="authors" class="form-label">Author:</label>
+                <input type="text" id="authors" name="authors" class="form-control" value="{{ ', '.join(book.authors) }}" required>
+                <div class="invalid-feedback">Authors are required.</div>
+            </div>
+
+            <div class="mb-3">
+                <label for="categories" class="form-label">Category:</label>
+                <select id="categories" name="categories" class="form-control" required>
+                  <option value="">Select Category</option>
+                  <option value="internet" {% if 'internet' in book.categories %}selected{% endif %}>internet</option>
+                  <option value="Java" {% if 'Java' in book.categories %}selected{% endif %}>Java</option>
+                  <option value="Web Development" {% if 'Web Development' in book.categories %}selected{% endif %}>Web Development</option>
+                </select>
+                <div class="invalid-feedback">Category is required.</div>
+            </div>
+
+            <button type="submit" class="btn btn-primary custom_color custom_border">Save</button>
+            <a class="btn btn-secondary custom_color custom_border" href="{{ url_for('cancel_edit') }}">Cancel</a>
         </form>
+        
         <script>
-            var cancelUrl = "{{ url_for('cancel_edit') }}";
-            
-            function cancel() {
-                window.location.href = cancelUrl;
-            }
-        </script>
-    
-        <script>
-            var book = {{ book | tojson }};
+            document.querySelector('form').addEventListener('submit', function(event) {
+                const form = event.target;
+                if (!form.checkValidity()) {
+                    event.preventDefault();
+                    event.stopPropagation();
+                    form.classList.add('was-validated');
+                }
+            });
+            document.getElementById('pageCount').addEventListener('input', function(event) {
+              const input = event.target;
+              const value = parseInt(input.value, 10);
+          
+              if (value < 1 || isNaN(value)) {
+                  input.classList.add('is-invalid');
+                  document.getElementById('pageCountError').style.display = 'block';
+              } else {
+                  input.classList.remove('is-invalid');
+                  document.getElementById('pageCountError').style.display = 'none';
+              }
+          });
         </script>
         <script src="../static/js/edit_book.js"></script>
         <script src="../static/js/navBar.js"></script>
-
+    </div>
 </body>
 </html>
-

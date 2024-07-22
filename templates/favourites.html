@@ -45,31 +45,38 @@
 
       <div class="container">
         <div class="row">
-          {% for book in favourites %}
-          <div class="col-md-2 mb-4">
-            <div class="card shadow">
-              <div class="d-flex justify-content-center align-items-center">
-                <img src="{{ book.thumbnailUrl }}" alt="" class="card-img-top img-fluid rounded-top">
+          {% if favourites %}
+            {% for book in favourites %}
+              <div class="col-md-3 mb-4">
+                <div class="card shadow">
+                  <div class="d-flex justify-content-center align-items-center">
+                    <img src="{{ book.thumbnailUrl }}" alt="" class="card-img-top img-fluid rounded-top">
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">{{ book.title }}</h5>
+                    <p class="card-text">
+                      <strong>Authors:</strong> {{ ', '.join(book.authors) }}
+                    </p>
+                    <p class="card-text">
+                      <strong>Status:</strong> {{ book.status }}
+                    </p>
+                    <p class="card-text">
+                      <strong>Short Description:</strong> {{ book.shortDescription[:100]+"..." }}
+                    </p>
+                  </div>
+                </div>
               </div>
-              <div class="card-body">
-                <h5 class="card-title">{{ book.title }}</h5>
-                <p class="card-text">
-                  <strong>Authors:</strong> {{ ', '.join(book.authors) }}
-                </p>
-                <p class="card-text">
-                  <strong>Published Date:</strong> {{ book.published_date.strftime('%Y-%m-%d') if book.published_date else 'N/A' }}
-                </p>
-                <p class="card-text">
-                  <strong>Short Description:</strong> {{ book.shortDescription[:100]+"..." }}
-                </p>
+            {% endfor %}
+          {% else %}
+            <div class="col-12">
+              <div class="alert alert-info" role="alert">
+                You have not added any books to your favourites yet.
               </div>
             </div>
-          </div>
-          {% endfor %}
+          {% endif %}
         </div>
       </div>
       <script src="../static/js/navBar.js"></script>
-
-    <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
 </body>
 </html>

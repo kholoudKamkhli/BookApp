@@ -13,3 +13,48 @@
 a{
     text-decoration: none;
 }
+.card-admin{
+    height: 600px;
+}
+.card-category{
+    height: 350px;
+}
+
+.card {
+    width: 18rem; 
+    height: 30rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-category {
+    width: 18rem; 
+    height: 15rem; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-img-top {
+    height: 200px; 
+    object-fit: cover; 
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card-title {
+    font-size: 1.25rem; 
+    margin-bottom: 0.5rem;
+}
+.card-text {
+    font-size: 0.875rem; 
+    margin-bottom: 0.5rem;
+    overflow: hidden;
+}
+.btn {
+    background-color: #f83fc0;
+}
+.btn svg {
+    margin-left: 5px;
+}

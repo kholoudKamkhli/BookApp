@@ -25,28 +25,6 @@
                 ]
             },
             {
-                "_id": 9,
-                "title": "Griffon in Action",
-                "isbn": "1935182234",
-                "pageCount": 375,
-                "publishedDate": {
-                    "$date": "2012-06-04T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/almiray.jpg",
-                "shortDescription": "Griffon in Action is a comprehensive tutorial written for Java developers who want a more productive approach to UI development. In this book, you'll immediately dive into Griffon. After a Griffon orientation and a quick Groovy tutorial, you'll start building examples that explore Griffon's high productivity approach to Swing development. One of the troublesome parts of Swing development is the amount of Java code that is required to get a simple application off the ground.",
-                "longDescription": "Although several options exist for interface development in Java, even popular UI toolkits like Swing have been notoriously complex and difficult to use. Griffon, an agile framework that uses Groovy to simplify Swing, makes UI development dramatically faster and easier. In many respects, Griffon is for desktop development what Grails is for web development. While it's based on Swing, its declarative style and approachable level of abstraction is instantly familiar to developers familiar with other technologies such as Flex or JavaFX.    Griffon in Action is a comprehensive tutorial written for Java developers who want a more productive approach to UI development. In this book, you'll immediately dive into Griffon. After a Griffon orientation and a quick Groovy tutorial, you'll start building examples that explore Griffon's high productivity approach to Swing development. One of the troublesome parts of Swing development is the amount of Java code that is required to get a simple application off the ground.    You'll learn how SwingBuilder (and its cousin builders) present a very palatable alternative in the form of a DSL geared towards building graphical user interfaces. Pair it up with the convention over configuration paradigm, a well tested and tried application source structure (based on Grails) and you have a recipe for quick and effective Swing application development. Griffon in Action covers declarative view development, like the one provided by JavaFX Script, as well as the structure, architecture and life cycle of Java application development",
-                "status": "PUBLISH",
-                "authors": [
-                    "Andres Almiray",
-                    "Danno Ferrin",
-                    "",
-                    "James Shingler"
-                ],
-                "categories": [
-                    "Java"
-                ]
-            },
-            {
                 "_id": 13,
                 "title": "Hello! Flex 4",
                 "isbn": "1933988762",
@@ -163,6 +141,64 @@
                 "categories": [
                     "SOA"
                 ]
+            },
+            {
+                "_id": 289,
+                "title": "Instant Messaging in Java",
+                "isbn": "1930110464",
+                "pageCount": 402,
+                "publishedDate": {
+                    "$date": "2002-03-01T00:00:00.000-0800"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shigeoka.jpg",
+                "shortDescription": "This intermediate Java programming book provides Java programmers with the information and tools needed to create your own IM client and server software.",
+                "longDescription": "Instant Messaging has exploded into the online world and is a wildly popular service of the largest Internet Service Providers (ISP) like AOL with AOL Instant Messenger, MSN with Microsoft Messenger, and Yahoo with Yahoo Messenger. Millions of Internet users everyday exchange IM s and its use beyond messaging is just around the corner. For example, the new Microsoft .NET platform will be using instant messaging technology for data exchange.    This intermediate Java programming book provides Java programmers with the information and tools needed to create your own IM client and server software. You can use the software to create your own IM systems or integrate IM features into your existing software. Imagine allowing your customers to chat directly with technical support or other users from within your application!    This book focuses on the open source Jabber XML-based IM protocols (www.jabber.org) to create Java IM software. These open protocols allows your IM software to seamlessly communicate with the large number of other Jabber clients and servers available including commercial Jabber systems like the one that powers Disney's go.com IM.    Readers are assumed to know how to program in Java. No prior knowledge of Jabber or IM is needed.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Iain Shigeoka"
+                ],
+                "categories": [
+                    "Internet",
+                    "Java"
+                ]
+            },
+            {
+                "_id": 283,
+                "title": "Multiprotocol over ATM",
+                "isbn": "138892709",
+                "pageCount": 341,
+                "publishedDate": {
+                    "$date": "1998-03-01T00:00:00.000-0800"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/schmidt.jpg",
+                "shortDescription": "With the detailed coverage of the entire set of protocols in Multiprotocol over ATM, you can be equal to the task.",
+                "longDescription": "Networks constructed with current ATM protocol design standards exceed by far former network capabilities. Unfortunately, this new ATM power and flexibility come at the cost of greater complexity. With the detailed coverage of the entire set of protocols in Multiprotocol over ATM, you can be equal to the task. If you're a network manager or designer, responsible for planning, building, or managing an enterprise or campus network, this book is for you.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Andrew Schmidt",
+                    "Daniel Minoli"
+                ],
+                "categories": [
+                    "Internet",
+                    "Networking"
+                ]
+            },
+            {
+                "_id": 1,
+                "title": "df",
+                "isbn": "d",
+                "pageCount": 34,
+                "publishedDate": "2024-07-09",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "sdf",
+                "longDescription": "re",
+                "status": "PUBLISH",
+                "authors": [
+                    "er"
+                ],
+                "categories": [
+                    "internet"
+                ]
             }
         ]
     },
@@ -192,7 +228,25 @@
         "password": "123456789",
         "username": "admin",
         "date": "2024-07-14 16:39:57",
-        "favorites": []
+        "favorites": [
+            {
+                "_id": 4,
+                "title": "Internet Security Essential",
+                "isbn": "978-1119510625",
+                "pageCount": 276,
+                "publishedDate": "2023-03-20",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "Understand the basics of internet security.",
+                "longDescription": "This book provides an overview of internet security principles, including encryption, firewalls, and threat management.",
+                "status": "Under review",
+                "authors": [
+                    "Michael Johnson"
+                ],
+                "categories": [
+                    "internet"
+                ]
+            }
+        ]
     },
     {
         "email": "saleem@gmail.com",
@@ -200,25 +254,6 @@
         "username": "saleem",
         "date": "2024-07-20 15:54:10",
         "favorites": [
-            {
-                "_id": 11,
-                "title": "Flexible Rails",
-                "isbn": "1933988509",
-                "pageCount": 592,
-                "publishedDate": {
-                    "$date": "2008-01-01T00:00:00.000-0800"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong.jpg",
-                "shortDescription": "\"Flexible Rails created a standard to which I hold other technical books. You definitely get your money's worth.\"",
-                "longDescription": "Rails is a fantastic tool for web application development, but its Ajax-driven interfaces stop short of the richness you gain with a tool like Adobe Flex. Simply put, Flex is the most productive way to build the UI of rich Internet applications, and Rails is the most productive way to rapidly build a database-backed CRUD application. Together, they're an amazing combination.    Flexible Rails is a book about how to use Ruby on Rails and Adobe Flex to build next-generation rich Internet applications (RIAs). The book takes you to the leading edge of RIA development, presenting examples in Flex 3 and Rails 2.    This book is not an exhaustive Ruby on Rails tutorial, nor a Flex reference manual. (Adobe ships over 3000 pages of PDF reference documentation with Flex.) Instead, it's an extensive tutorial, developed iteratively, how to build an RIA using Flex and Rails together. You learn both the specific techniques you need to use Flex and Rails together as well as the development practices that make the combination especially powerful.    The example application built in the book is MIT-licensed, so readers can use it as the basis for their own applications. In fact, one reader has already built an agile project management tool based on the book example!    With this book, you learn Flex by osmosis. You can read the book and follow along even if you have never used Flex before. Consider it \"Flex Immersion.\" You absorb the key concepts of Flex as you go through the process of building the application.    You will also learn how Flex and Rails integrate with HTTPService and XML, and see how RESTful Rails controller design gracefully supports using the same controller actions for Flex and HTML clients. The author will show you how Cairngorm can be used to architect larger Flex applications, including tips to use Cairngorm in a less verbose way with HTTPService to talk to Rails.    Flexible Rails is for both Rails developers who are interested in Flex, and Flex developers who are interested in Rails. For a Rails developer, Flex allows for more dynamic and engaging user interfaces than are possible with Ajax. For a Flex developer, Rails provides a way to rapidly build the ORM and services layer of the application.",
-                "status": "PUBLISHED",
-                "authors": [
-                    "Peter Armstrong"
-                ],
-                "categories": [
-                    "Web Development"
-                ]
-            },
             {
                 "_id": 11,
                 "title": "Flexible Rails",
@@ -316,6 +351,227 @@
                     "Business",
                     "Client Server",
                     ""
+                ]
+            }
+        ]
+    },
+    {
+        "email": "hsmf@gmsil.vo",
+        "password": "123",
+        "username": "hazem",
+        "date": "2024-07-22 10:44:16",
+        "favorites": [
+            {
+                "_id": 273,
+                "title": "The Awesome Power of Java Beans",
+                "isbn": "1884777562",
+                "pageCount": 500,
+                "publishedDate": {
+                    "$date": "1998-05-01T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rodrigues.jpg",
+                "shortDescription": "Build your own bean  Or use one that's ready-made  The Awesome Power of Java Beans provides the details on both. Either way, the power of Java Beans is awesome: once created, your beans run anywhere-- ceven masquerading as an ActiveX control.    The Awesome Power of Java Beans shows you how to use not only BeanBox, but also such tools as VisualAge WebRunner, JBuilder and PowerJ. And there's a wide-ranging selection of completed and tested beans for you to use in your applications    If you're a Java programmer, teacher or student, or if you design software systems using Java Beans, this book will be a valuable resource.",
+                "longDescription": "Build your own bean  Or use one that's ready-made  The Awesome Power of Java Beans provides the details on both. Either way, the power of Java Beans is awesome: once created, your beans run anywhere-- ceven masquerading as an ActiveX control.    The Awesome Power of Java Beans shows you how to use not only BeanBox, but also such tools as VisualAge WebRunner, JBuilder and PowerJ. And there's a wide-ranging selection of completed and tested beans for you to use in your applications    If you're a Java programmer, teacher or student, or if you design software systems using Java Beans, this book will be a valuable resource.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Lawrence H. Rodrigues"
+                ],
+                "categories": [
+                    "Java"
+                ]
+            },
+            {
+                "_id": 14,
+                "title": "Coffeehouse",
+                "isbn": "1884777384",
+                "pageCount": 316,
+                "publishedDate": {
+                    "$date": "1997-07-01T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/asher.jpg",
+                "shortDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web.",
+                "longDescription": "Coffeehouse is an anthology of stories, poems and essays originally published on the World Wide Web. The purpose is to capture the zeitgeist of the web's creative community, and to give readers a chance to enjoy some of the best and most notable original works that have appeared in this form. It showcases over forty individual web writers, among them Joseph Squier, Martha Conway, Jason Snell, David Alexander, Carl Steadman and Walter Miller. The intent is to show the variety and vitality of the web's blossoming literary \"scene,\" and to capture the unique and highly iconoclastic \"personality\" of the web community.",
+                "status": "PUBLISHED",
+                "authors": [
+                    "Levi Asher",
+                    "Christian Crumlish"
+                ],
+                "categories": [
+                    "Miscellaneous"
+                ]
+            },
+            {
+                "_id": 16,
+                "title": "Brownfield Application Development in .NET",
+                "isbn": "1933988711",
+                "pageCount": 550,
+                "publishedDate": {
+                    "$date": "2010-04-16T00:00:00.000-0700"
+                },
+                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
+                "shortDescription": "Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.",
+                "longDescription": "It's easy to get excited about building a new software project from scratch. So-called \"greenfield\" projects often involve learning new technology and the opportunity for experimentation. Working on established software projects may seem less glamorous.    Most software developers have inherited a monolithic application where the day-to-day tasks involve maintenance, incremental improvements, or even cleaning up the mess another programmer left behind. These legacy or brownfield projects often have tightly coupled components, low cohesion, and poor separation of concerns, making them fragile and resistant to change.    Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.    Starting with the build process and the introduction of unit tests, the authors show you how to set up the application so that in later chapters, you can make incremental changes aimed at decoupling components from each other. Each practice introduced will increase your confidence and ability to make subsequent changes to your code.    As the book proceeds, the authors introduce frameworks and tools commonly used today while still approaching the subject from a conceptual level so that you can substitute alternate tools as appropriate. This book examines the reasons why a tool is necessary, not the tool itself. Because the book is based on the authors' experiences, Brownfield Application Development in .Net moves beyond the theories and shows you the techniques you need to be successful.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Kyle Baley",
+                    "Donald Belcham"
+                ],
+                "categories": [
+                    "Microsoft"
+                ]
+            }
+        ]
+    },
+    {
+        "email": "er@fg.com",
+        "password": "1234",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:27:41",
+        "favorites": []
+    },
+    {
+        "email": "qw@gmail.com",
+        "password": "12345",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:29:40",
+        "favorites": []
+    },
+    {
+        "email": "sd@hg.com",
+        "password": "12",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:43:05",
+        "favorites": []
+    },
+    {
+        "email": "sdk@hg.com",
+        "password": "12345",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:44:09",
+        "favorites": []
+    },
+    {
+        "email": "vb@gmail.com",
+        "password": "Kholoud1412002@",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:47:40",
+        "favorites": []
+    },
+    {
+        "email": "t-2747@ischoolteams.com",
+        "password": "Kholoud14",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:48:13",
+        "favorites": []
+    },
+    {
+        "email": "kj@gmail.com",
+        "password": "123",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:49:58",
+        "favorites": []
+    },
+    {
+        "email": "bn@gmail.com",
+        "password": "nm",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:53:07",
+        "favorites": []
+    },
+    {
+        "email": "ty@gmail.com",
+        "password": "1234567@",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:55:47",
+        "favorites": []
+    },
+    {
+        "email": "xc@gmail.com",
+        "password": "1234567b@",
+        "username": "kholouudd__",
+        "date": "2024-07-22 11:57:10",
+        "favorites": []
+    },
+    {
+        "email": "mn@gmail.com",
+        "password": "Kholoud1412002$",
+        "username": "kholouudd__",
+        "date": "2024-07-22 14:55:13",
+        "favorites": [
+            {
+                "_id": 4,
+                "title": "Internet Security Essential",
+                "isbn": "978-1119510625",
+                "pageCount": 276,
+                "publishedDate": "2023-03-20",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "Understand the basics of internet security.",
+                "longDescription": "This book provides an overview of internet security principles, including encryption, firewalls, and threat management.",
+                "status": "PUBLISH",
+                "authors": [
+                    "Michael Johnson"
+                ],
+                "categories": [
+                    "internet"
+                ]
+            },
+            {
+                "_id": 15,
+                "title": "Introduction to Internet Technologies",
+                "isbn": "978-0134670946",
+                "pageCount": 270,
+                "publishedDate": "2024-03-15",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "An introduction to key internet technologies.",
+                "longDescription": "This book provides an overview of fundamental internet technologies, including HTTP, HTML, and web servers.",
+                "status": "Done",
+                "authors": [
+                    "Zoe Adams"
+                ],
+                "categories": [
+                    "internet"
+                ]
+            },
+            {
+                "_id": 7,
+                "title": "Modern Web Design",
+                "isbn": "978-1119293561",
+                "pageCount": 256,
+                "publishedDate": "2023-04-12",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "Design stunning websites with modern techniques.",
+                "longDescription": "Learn about the latest trends and techniques in web design, including UX/UI principles and design tools.",
+                "status": "Done",
+                "authors": [
+                    "Olivia Davis"
+                ],
+                "categories": [
+                    "Web Development"
+                ]
+            }
+        ]
+    },
+    {
+        "email": "cv@gmail.com",
+        "password": "Kholoud1412992@",
+        "username": "cv",
+        "date": "2024-07-22 15:33:45",
+        "favorites": [
+            {
+                "_id": 4,
+                "title": "Internet Security Essential",
+                "isbn": "978-1119510625",
+                "pageCount": 276,
+                "publishedDate": "2023-03-20",
+                "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
+                "shortDescription": "Understand the basics of internet security.",
+                "longDescription": "This book provides an overview of internet security principles, including encryption, firewalls, and threat management.",
+                "status": "Under review",
+                "authors": [
+                    "Michael Johnson"
+                ],
+                "categories": [
+                    "internet"
                 ]
             }
         ]
