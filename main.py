@@ -13,6 +13,8 @@ app.add_url_rule('/category/<category_name>', 'category_books', routes.category_
 app.add_url_rule('/allbooks', 'get_all_book', routes.get_all_book)
 app.add_url_rule('/favourites', 'favourites', routes.favourites)
 app.add_url_rule('/add_to_favourite/<book_id>', 'add_to_favourite', routes.add_to_favourite, methods=["POST"])
+app.add_url_rule('/remove_favourite/<book_id>', 'remove_favourite', routes.remove_favourite, methods=["POST"])
+
 app.add_url_rule('/addBook', 'add_book', routes.add_book, methods=["POST", "GET"])
 app.add_url_rule('/delete_book/<book_id>', 'delete_book', routes.delete_book, methods=["POST"])
 app.add_url_rule('/edit_book/<book_id>', 'edit_book', routes.edit_book, methods=["POST", "GET"])

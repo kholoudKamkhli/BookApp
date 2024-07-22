@@ -112,12 +112,21 @@
                                   </button>
                               {% endif %}
                               {% if type == "User" %}
+                              {% if book._id not in favorites%}
                                   <button onclick="addToFavourite('{{ book._id }}')" class="btn text-white">
                                       Favourite
                                       <svg class="bi bi-plus" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
                                           <path d="M8 4a.5.5 0 0 1 .5.5v3h3a.5.5 0 0 1 0 1h-3v3a.5.5 0 0 1-1 0v-3h-3a.5.5 0 0 1 0-1h3v-3A.5.5 0 0 1 8 4z"/>
                                       </svg>
                                   </button>
+                                  {%else%}
+                                  <button onclick="removeFavourite('{{ book._id }}')" class="btn text-white">
+                                    UnFavorite
+                                    <svg class="bi" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                                        <path d="M2 8a.5.5 0 0 1 .5-.5h11a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8z"/>
+                                    </svg>
+                                </button>
+                                  {% endif %}
                               {% endif %}
                           </div>
                       </div>

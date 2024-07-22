@@ -6,198 +6,20 @@
         "date": "2024-07-13 10:22:37",
         "favorites": [
             {
-                "_id": 10,
-                "title": "OSGi in Depth",
-                "isbn": "193518217X",
-                "pageCount": 325,
-                "publishedDate": {
-                    "$date": "2011-12-12T00:00:00.000-0800"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/alves.jpg",
-                "shortDescription": "Enterprise OSGi shows a Java developer how to develop to the OSGi Service Platform Enterprise specification, an emerging Java-based technology for developing modular enterprise applications. Enterprise OSGi addresses several shortcomings of existing enterprise platforms, such as allowing the creation of better maintainable and extensible applications, and provide a simpler, easier-to-use, light-weight solution to enterprise software development.",
-                "longDescription": "A good application framework greatly simplifies a developer's task by providing reusable code modules that solve common, tedious, or complex tasks. Writing a great framework requires an extraordinary set of skills-ranging from deep knowledge of a programming language and target platform to a crystal-clear view of the problem space where the applications to be developed using the framework will be used.    OSGi Application Frameworks shows a Java developer how to build frameworks based on the OSGi service platform. OSGi, an emerging Java-based technology for developing modular applications, is a great tool for framework building. A framework itself, OSGi allows the developer to create a more intuitive, modular framework by isolating many of the key challenges the framework developer faces.    This book begins by describing the process, principles, and tools you must master to build a custom application framework. It introduces the fundamental concepts of OSGi, and then shows you how to put OSGi to work building various types of frameworks that solve specific development problems.    OSGi is particularly useful for building frameworks that can be easily extended by developers to create domain-specific applications. This book teaches the developer to break down a problem domain into its abstractions and then use OSGi to create a modular framework solution. Along the way, the developer learns software engineering practices intrinsic to framework building that result in systems with better software qualities, such as flexibility, extensibility, and maintainability.    Author Alexandre Alves guides you through major concepts, such as the definition of programming models and modularization techniques, and complements them with samples that have real applicability using industry-proved technologies, such as Spring-DM and Equinox.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Alexandre de Castro Alves"
-                ],
-                "categories": [
-                    "Java"
-                ]
-            },
-            {
-                "_id": 13,
-                "title": "Hello! Flex 4",
-                "isbn": "1933988762",
-                "pageCount": 258,
-                "publishedDate": {
-                    "$date": "2009-11-01T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/armstrong3.jpg",
-                "shortDescription": "Hello! Flex 4 progresses through 26 self-contained examples selected so you can progressively master Flex. They vary from small one-page apps, to a 3D rotating haiku, to a Connect Four-like game. And in the last chapter you'll learn to build a full Flex application called SocialStalkr   a mashup that lets you follow your friends by showing their tweets on a Yahoo map.",
-                "longDescription": "With Flex 4 you can easily add color and life to your web applications by introducing dynamic user features, slick transitions, and eye-catching animations. Flex also provides powerful data handling capabilities so you can build industrial-strength applications. And it's open source, so you can get started without forking over a lot of your hard-earned cash.    We think it should be just as much fun to learn Flex as it is to use Flex. Hello! Flex 4 shows you everything you need to know to get started with Flex 4 without bogging you down in obscure detail or academic edge cases. In this entertaining, hands-on book, you'll quickly move from Hello World into the techniques you'll need to use Flex effectively.    You'll start by progressing through 26 self-contained workshop items, which include everything from small one-page examples, to a 3D rotating haiku, to building a Connect Four game. Finally, in the last chapter you'll build a full Flex application called 'SocialStalkr': an interesting mashup of Twitter and Yahoo Maps that lets you 'stalk' your friends by showing specially formatted Twitter tweets on a Yahoo map.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Peter Armstrong"
-                ],
-                "categories": [
-                    "Internet"
-                ]
-            },
-            {
-                "_id": 176,
-                "title": "Object Technology Centers of Excellence",
-                "isbn": "132612313",
-                "pageCount": 200,
-                "publishedDate": {
-                    "$date": "1996-06-01T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/korson.jpg",
-                "shortDescription": "Object Technology Centers of Excellence provides guidance to those charged with managing the shift to object technology. It is the only book on the market aimed not at the project level but at the corporate level, with a focus on the infrastructures necessary for a successful transition.",
-                "longDescription": "Object Technology Centers (OTC) are technology transfer catalysts for the rapid development and deployment of object-oriented infrastructure. Object Technology Centers of Excellence provides guidance to those charged with managing the shift to object technology. It is the only book on the market aimed not at the project level but at the corporate level, with a focus on the infrastructures necessary for a successful transition.    This book presents case histories of early adopters of OT, which can help you understand the steps your company must take-and paths it should avoid. Object Technology Centers of Excellence is recommended reading in any organization planning or transitioning to OT, not just involved with formal OTCs. The book includes practical advice for managers, members of technical staffs, and consultants.    The case histories involve some heavy hitters:    IBM  Wiltel  The Travelers  Bell Northern Research  Also, summaries are presented for Andersen Consulting, Northern Telecom, Prudential Insurance Company, Ascom Nexion, and several others.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Timothy D. Korson",
-                    "Vijay K. Vaishnavi"
-                ],
-                "categories": [
-                    "Object-Technology Programming",
-                    ""
-                ]
-            },
-            {
-                "_id": 17,
-                "title": "MongoDB in Action",
-                "isbn": "1935182870",
-                "pageCount": 0,
-                "publishedDate": {
-                    "$date": "2011-12-12T00:00:00.000-0800"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/banker.jpg",
-                "shortDescription": "MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.",
-                "longDescription": "MongoDB is a document-oriented database that's highly scalable and delivers very high-performance, especially with massive data sets that need to be spread across multiple servers. It blends the things you expect with any database   like indexing, querying, and high availability   with powerful new features like easy horizontal scaling (\"auto-sharding\"), map/reduce aggregation, and a flexible document data model to support dynamic schemas.    MongoDB In Action is a comprehensive guide to MongoDB for application developers. The book begins by explaining what makes MongoDB unique and describing its ideal use cases. A series of tutorials designed for MongoDB mastery then leads into detailed examples for leveraging MongoDB in e-commerce, social networking, analytics, and other common applications.    Along the way, all of MongoDB's major features are covered, including:        * Indexes and explain plans for efficient queries      * Atomic operations for managing simple data structures and manipulating complex, rich documents      * GridFS for storing and managing large binary objects (images, videos, etc.) in MongoDB      * Map-reduce for custom aggregations and reporting      * Master-slave replication and replica sets for automated failover      * Auto-sharding for automated horizontal scaling    The handy reference section on schema design patterns will help ease the transition from the relational data model of SQL to MongoDB's document-based data model. The numerous, detailed examples are implemented in Ruby and include comprehensive explanations.    MongoDB has been gaining traction in the developer community for its speed, flexibility, scalability, and ease of use. With production deployments that include SourceForge, Foursquare, and Shutterfly, MongoDB is proving to be a robust and reliable database system that keeps developers happy. Covering everything from installation to application design to deployment, MongoDB In Action is written for the application developer who wants to take advantage of MongoDB and get up and running quickly.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Kyle Banker"
-                ],
-                "categories": [
-                    "Next Generation Databases"
-                ]
-            },
-            {
-                "_id": 267,
-                "title": "PHP in Action",
-                "isbn": "1932394753",
-                "pageCount": 552,
-                "publishedDate": {
-                    "$date": "2007-07-01T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/reiersol.jpg",
-                "shortDescription": "\"If there was ever a textbook for software development in PHP, this would be it.\"    Cal Evans, Podcast Review, Zend Developer Network",
-                "longDescription": "To keep programming productive and enjoyable, state-of-the-art practices and principles are essential. Object-oriented programming and design help manage complexity by keeping components cleanly separated. Unit testing helps prevent endless, exhausting debugging sessions. Refactoring keeps code supple and readable. PHP offers all this, and more.    PHP in Action shows you how to apply PHP techniques and principles to all the most common challenges of web programming, including:    Web presentation and templates  User interaction including the Model-View-Contoller architecture  Input validation and form handling  Database connection and querying and abstraction  Object persistence  This book takes on the most important challenges of web programming in PHP 5 using state-of-the art programming and software design techniques including unit testing, refactoring and design patterns. It provides the essential skills you need for developing or maintaining complex to moderately complex PHP web applications.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Dagfinn Reiers\u00c3\u00b8l with Marcus Baker",
-                    "Chris Shiflett"
-                ],
-                "categories": [
-                    "PHP"
-                ]
-            },
-            {
-                "_id": 16,
-                "title": "Brownfield Application Development in .NET",
-                "isbn": "1933988711",
-                "pageCount": 550,
-                "publishedDate": {
-                    "$date": "2010-04-16T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/baley.jpg",
-                "shortDescription": "Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.",
-                "longDescription": "It's easy to get excited about building a new software project from scratch. So-called \"greenfield\" projects often involve learning new technology and the opportunity for experimentation. Working on established software projects may seem less glamorous.    Most software developers have inherited a monolithic application where the day-to-day tasks involve maintenance, incremental improvements, or even cleaning up the mess another programmer left behind. These legacy or brownfield projects often have tightly coupled components, low cohesion, and poor separation of concerns, making them fragile and resistant to change.    Brownfield Application Development in .Net shows you how to approach legacy applications with the state-of-the-art concepts, patterns, and tools you've learned to apply to new projects. Using an existing application as an example, this book guides you in applying the techniques and best practices you need to make it more maintainable and receptive to change.    Starting with the build process and the introduction of unit tests, the authors show you how to set up the application so that in later chapters, you can make incremental changes aimed at decoupling components from each other. Each practice introduced will increase your confidence and ability to make subsequent changes to your code.    As the book proceeds, the authors introduce frameworks and tools commonly used today while still approaching the subject from a conceptual level so that you can substitute alternate tools as appropriate. This book examines the reasons why a tool is necessary, not the tool itself. Because the book is based on the authors' experiences, Brownfield Application Development in .Net moves beyond the theories and shows you the techniques you need to be successful.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Kyle Baley",
-                    "Donald Belcham"
-                ],
-                "categories": [
-                    "Microsoft"
-                ]
-            },
-            {
-                "_id": 277,
-                "title": "SOA Patterns",
-                "isbn": "1933988266",
-                "pageCount": 250,
-                "publishedDate": {
-                    "$date": "2012-09-12T00:00:00.000-0700"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/rotem.jpg",
-                "shortDescription": "In SOA Patterns, author Arnon Rotem-Gal-Oz provides detailed, technology-neutral solutions to these challenges, and many others. This book provides architectural guidance through patterns and anti-patterns. It shows you how to build real SOA services that feature flexibility, availability, and scalability.",
-                "longDescription": "SOA   Service Oriented Architecture   has become the leading solution for complex, connected business systems. While it's easy to grasp the theory of SOA, implementing well-designed, practical SOA systems can be a difficult challenge. Developers and enterprise architects still face the following issues:        * How to get high-availability with SOA      * How to know a service has failed      * How to create reports when data is scattered within multiple services      * How to increase the loose coupling of your SOA      * How to solve authentication and authorization for service consumers--internal and external      * How to integrate SOA and the UI      * How to avoid common SOA pitfalls      * How to choose technologies that increase the performance of your services    In SOA Patterns, author Arnon Rotem-Gal-Oz provides detailed, technology-neutral solutions to these challenges, and many others. This book provides architectural guidance through patterns and anti-patterns. It shows you how to build real SOA services that feature flexibility, availability, and scalability. Through an extensive set of patterns, this book identifies the major SOA pressure points and provides reusable techniques to address them. Each pattern pairs the classic Problem/Solution format with a unique technology map, showing where specific solutions fit into the general pattern.    SOA Patterns shows you how to address common SOA concerns, including the areas of performance, availability, scalability, security, management, service interaction, user interface interaction, and service aggregation. The SOA anti-patterns part shows you how to avoid common mistakes and how to refactor broken systems. The book also maps quality attributes to patterns so that you can easily find the patterns relevant to your problems.    WHAT'S INSIDE:        * Details more than 30 patterns for common SOA scenarios in the areas of security, performace, availability, UI integration, service aggregation and service interaction      * Describes more than 20 SOA pitfalls to avoid      * Spotlights the architecural perspective on SOA      * Explains technology mapping from conceptual solution to current technologies      * Provides extensive and practical advice on matching patterns to technologies  ",
-                "status": "PUBLISH",
-                "authors": [
-                    "Arnon Rotem-Gal-Oz"
-                ],
-                "categories": [
-                    "SOA"
-                ]
-            },
-            {
-                "_id": 289,
-                "title": "Instant Messaging in Java",
-                "isbn": "1930110464",
-                "pageCount": 402,
-                "publishedDate": {
-                    "$date": "2002-03-01T00:00:00.000-0800"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/shigeoka.jpg",
-                "shortDescription": "This intermediate Java programming book provides Java programmers with the information and tools needed to create your own IM client and server software.",
-                "longDescription": "Instant Messaging has exploded into the online world and is a wildly popular service of the largest Internet Service Providers (ISP) like AOL with AOL Instant Messenger, MSN with Microsoft Messenger, and Yahoo with Yahoo Messenger. Millions of Internet users everyday exchange IM s and its use beyond messaging is just around the corner. For example, the new Microsoft .NET platform will be using instant messaging technology for data exchange.    This intermediate Java programming book provides Java programmers with the information and tools needed to create your own IM client and server software. You can use the software to create your own IM systems or integrate IM features into your existing software. Imagine allowing your customers to chat directly with technical support or other users from within your application!    This book focuses on the open source Jabber XML-based IM protocols (www.jabber.org) to create Java IM software. These open protocols allows your IM software to seamlessly communicate with the large number of other Jabber clients and servers available including commercial Jabber systems like the one that powers Disney's go.com IM.    Readers are assumed to know how to program in Java. No prior knowledge of Jabber or IM is needed.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Iain Shigeoka"
-                ],
-                "categories": [
-                    "Internet",
-                    "Java"
-                ]
-            },
-            {
-                "_id": 283,
-                "title": "Multiprotocol over ATM",
-                "isbn": "138892709",
-                "pageCount": 341,
-                "publishedDate": {
-                    "$date": "1998-03-01T00:00:00.000-0800"
-                },
-                "thumbnailUrl": "https://s3.amazonaws.com/AKIAJC5RLADLUMVRPFDQ.book-thumb-images/schmidt.jpg",
-                "shortDescription": "With the detailed coverage of the entire set of protocols in Multiprotocol over ATM, you can be equal to the task.",
-                "longDescription": "Networks constructed with current ATM protocol design standards exceed by far former network capabilities. Unfortunately, this new ATM power and flexibility come at the cost of greater complexity. With the detailed coverage of the entire set of protocols in Multiprotocol over ATM, you can be equal to the task. If you're a network manager or designer, responsible for planning, building, or managing an enterprise or campus network, this book is for you.",
-                "status": "PUBLISH",
-                "authors": [
-                    "Andrew Schmidt",
-                    "Daniel Minoli"
-                ],
-                "categories": [
-                    "Internet",
-                    "Networking"
-                ]
-            },
-            {
-                "_id": 1,
-                "title": "df",
-                "isbn": "d",
-                "pageCount": 34,
-                "publishedDate": "2024-07-09",
+                "_id": 8,
+                "title": "Java Programming for Beginners",
+                "isbn": "978-0596009205",
+                "pageCount": 384,
+                "publishedDate": "2023-07-01",
                 "thumbnailUrl": "https://img.freepik.com/free-photo/book-composition-with-open-book_23-2147690555.jpg",
-                "shortDescription": "sdf",
-                "longDescription": "re",
+                "shortDescription": "Learn Java programming from scratch.",
+                "longDescription": "A practical guide for beginners to learn Java programming, with step-by-step examples and exercises.",
                 "status": "PUBLISH",
                 "authors": [
-                    "er"
+                    "Daniel Green"
                 ],
                 "categories": [
-                    "internet"
+                    "Java"
                 ]
             }
         ]

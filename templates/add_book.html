@@ -30,7 +30,7 @@
       
       <div class="container p-5">
         <h2 class="text-center">Add Book</h2>
-        <form method="POST" action="{{ url_for('add_book') }}" novalidate>
+        <form method="POST" action="{{ url_for('add_book') }}" enctype="multipart/form-data" novalidate>
             <div class="mb-3">
                 <label for="title" class="form-label">Title:</label>
                 <input type="text" id="title" name="title" class="form-control" required>
@@ -57,7 +57,7 @@
             
             <div class="mb-3">
                 <label for="thumbnailUrl" class="form-label">Thumbnail URL:</label>
-                <input type="url" id="thumbnailUrl" name="thumbnailUrl" class="form-control">
+                <input type="file" id="thumbnailUrl" name="thumbnailUrl" class="form-control">
                 <div class="invalid-feedback">Invalid URL format.</div>
             </div>
             

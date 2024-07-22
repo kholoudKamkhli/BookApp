@@ -16,9 +16,35 @@ function addToFavourite(bookId) {
         // if the book added succcessfully to favourites, alert the user
         if (data.success) {
             alert('Book added to favourites successfully!');
+            setTimeout(()=>window.location.reload(), 100);
         } else {
             //if book is not added to favourites, alert the user
             alert('Failed to add book to favourites.');
+        }
+    });
+}
+// function that fetches add to favourite in the backent
+function removeFavourite(bookId) {
+
+    fetch(`/remove_favourite/${bookId}`, {
+        // specify the method to be POST
+        method: "POST",
+    })
+    .then(response => {
+        // if error occured, throw it 
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        // if the book added succcessfully to favourites, alert the user
+        if (data.success) {
+            alert('Book removed from favourites successfully!');
+            setTimeout(()=>window.location.reload(), 100);
+        } else {
+            //if book is not added to favourites, alert the user
+            alert('Failed to remove book from favourites.');
         }
     });
 }

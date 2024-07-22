@@ -322,6 +322,23 @@
             "categories": [
                 "internet"
             ]
+        },
+        {
+            "_id": 23,
+            "title": "cfjpv",
+            "isbn": "jpoc",
+            "pageCount": 341,
+            "publishedDate": "2024-07-21",
+            "thumbnailUrl": "/static/uploads/247-5.jpg",
+            "shortDescription": "fjopvb",
+            "longDescription": "jcpo v",
+            "status": "PUBLISH",
+            "authors": [
+                "kholoud"
+            ],
+            "categories": [
+                "internet"
+            ]
         }
     ]
 }
